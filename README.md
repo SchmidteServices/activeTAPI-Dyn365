@@ -18,7 +18,11 @@ activeTAPI for Dynamics 365 adds telephone number validation and formatting to y
 
 ![contactFormatNumber02](README.assets/contactFormatNumber02.gif)
 
-You'll find the [technical documentation](https://github.com/SchmidteServices/activeTAPI-Dyn365/wiki) about how to install in out GitHub Wiki.
+## Technical documentation
+
+You'll find the technical documentation on [GitHub Pages](https://schmidteservices.github.io/activeTAPI-Dyn365/) or in the repositories `docs` folder.
+
+## Marketing and Licensing
 
 Marketing an licensing information can be found on http://activeTAPI.net.
 
@@ -26,4 +30,4 @@ In case of any question, [contact us by e-mail](mailto:support@activeTAPI.net).
 
 &copy; 2019, Schmidt e-Services GmbH i.L
 Niedernhausener Straße 59a
-D-652077 Wiesbaden
+D-65207 Wiesbaden
