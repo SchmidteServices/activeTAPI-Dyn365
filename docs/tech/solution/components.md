@@ -1,8 +1,10 @@
 ---
-title: Solution Components
+parent: activeTAPI Solution
 # nav_order: 1
+title: Solution Components
 has_children: false
-nav_exclude: true
+# nav_exclude: true
+# has_toc: false
 ---
 
 # Solution Components
