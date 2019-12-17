@@ -9,7 +9,8 @@ description: > # this means to ignore newlines until "baseurl:"
 markdown: kramdown
 
 # https://jekyllthemes.io/theme/just-the-docs
-remote_theme: pmarsceill/just-the-docs
+remote_theme: tomjoht/documentation-theme-jekyll
+# remote_theme: pmarsceill/just-the-docs
 
 # Set a path/url to a logo that will be displayed instead of the title
 # logo: "/assets/images/just-the-docs.png"
