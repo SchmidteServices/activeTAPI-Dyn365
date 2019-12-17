@@ -65,16 +65,16 @@ Write-Output $outDir
 # Download wkhtmltopdf and save the executable folder path to %PATH%.
 # Or just install wkhtmltopdf using chocolatey: choco install wkhtmltopdf
 
-# $pdfDir=[System.IO.Path]::GetFullPath( $projectDir + '\pdf')
-# $env:Path += ";$toolsBase\wkhtmltox\bin"
+$pdfDir=[System.IO.Path]::GetFullPath( $projectDir + '\pdf')
+$env:Path += ";$toolsBase\wkhtmltox\bin"
 
-# & $docfx pdf 	-o "$pdfDir"	--loglevel INFO
-# # ----------------------------------------------------------------------------------
+& $docfx pdf 	-o "$pdfDir"	--loglevel INFO
+# ----------------------------------------------------------------------------------
 
-# if( $startWebSite) {
-# 	Write-Output "Launch docfx and serve help on http://localhost:8080"
-# 	& $docfx serve "$outDir"
-# }
+if( $startWebSite) {
+	Write-Output "Launch docfx and serve help on http://localhost:8080"
+#	& $docfx serve "$outDir"
+}
 
 # go back to initial location
 Pop-Location
