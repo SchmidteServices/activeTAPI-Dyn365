@@ -29,7 +29,7 @@ This entity contains all settings required for activeTAPI. The entity is availab
 
 ![image-20191217151214810](components.assets/image-20191217151214810.png)
 
-After solution import, this entity is empty and the configuration keys need to be set manually, when required (see [activeTAPI configuration](..\configuration\activeTapiSettingEntity.md))
+After solution import, this entity is empty and the configuration keys need to be set manually, when required (see [activeTAPI configuration](../settingEntity.md))
 
 ## JavaScript
 

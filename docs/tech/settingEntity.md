@@ -5,11 +5,11 @@ title: Settings Entity
 has_children: false
 ---
 
-# ActiveTAPI Settings Entity
+# activeTAPI Settings Entity
 
 activeTAPI comes with its own entity which contains all settings. This entity is a simple key-value list, for example:
 
-![image-20191217151534194](activeTapiSettingEntity.assets/image-20191217151534194.png)
+![image-20191217151534194](settingEntity.assets/image-20191217151534194.png)
 
 The following keys can be used:
 
