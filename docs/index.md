@@ -14,3 +14,4 @@ Here, you will find a simple use-case, [technical information](tech/index1/) and
 So far, we have tested activeTAPI with Microsoft Dynamics 365 - CRM On-Premise. A package for Microsoft Dynamics 365 CE is available on Microsoft-AppSource.
 
 Laste Edit: {{page.date}}
+Laste Edit: {{site.date}}
