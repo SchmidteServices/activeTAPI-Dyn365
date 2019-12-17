@@ -1,7 +1,7 @@
 ---
 parent: Technical information
+nav_order: 800
 title: Settings Entity
-nav_order: 200
 has_children: false
 ---
 
