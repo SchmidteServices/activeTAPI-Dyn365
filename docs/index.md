@@ -4,7 +4,7 @@ nav_order: 1
 has_children: true
 ---
 
-# Welcome to the activeTAPI for Microsoft Dynamics 365
+# activeTAPI for Microsoft Dynamics 365
 
 Here, you will find a simple use-case, [technical information](tech/index1/) and background information about _activeTAPI for Microsoft Dynamics 365_.
 

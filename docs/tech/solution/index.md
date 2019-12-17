@@ -1,3 +1,11 @@
+---
+parent: Technical information
+title: activeTAPI Solution
+nav_order: 100
+has_children: true
+---
+
+
 # activeTAPI Solution
 
 > The Microsoft Dynamics 365 Solution (the activeTAPI package) does not change or modify any functionality in your existing organization. The solution, and also the functionaly, are completely separated from all existing items. 
@@ -9,4 +17,3 @@ The only connection point that is required to use *activeTAPI* in your organizat
 This is, by the way, the only modification activeTAPI makes in your Microsoft Dynamics 365 organization. 
 
 ![image-20191217154350529](index.assets/image-20191217154350529.png)
-

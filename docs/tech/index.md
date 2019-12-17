@@ -1,9 +1,12 @@
 ---
-title: Home
-nav_order: 2
+title: Technical information
+nav_order: 100
+parent: Home
 has_children: true
 ---
-# Technical information
+
+
+# {{page.title}}
 
 *activeTAPI for Microsoft Dynamics 365* is based on the **Schmidt e-Services** *Platform Services Technology*. This technology allows us to execute all business logic in the controled context of a Plugin - and server-side. 
 

@@ -1,10 +1,11 @@
 ---
-title: Home
-nav_order: 100
-parent: Home
+parent: Technical information
+title: Verify correct installation
+nav_order: 900
 has_children: false
 ---
-# Verify correct installation
+
+# {{page.title}}
 
 Check the *managed Solution* is installed. The version may differ, of course. 
 

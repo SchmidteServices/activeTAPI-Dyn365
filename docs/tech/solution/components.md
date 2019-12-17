@@ -1,3 +1,10 @@
+---
+parent: activeTAPI Solution
+title: Solution Components
+nav_order: 200
+has_children: false
+---
+
 # Solution Components
 
 | Field | Content |
@@ -39,4 +46,3 @@ It is important to notice that this Plugin does <u>not</u> execute on any existi
 ![image-20191217153629482](components.assets/image-20191217153629482.png)
 
 The purpose of this Plugin is, the execute all activeTAPI requests. This means, all activeTAPI logic is server-side and executes in the context of this Plugin.
-
