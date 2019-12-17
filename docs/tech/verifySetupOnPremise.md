@@ -1,6 +1,6 @@
 ---
-# parent: Technical information
-title: Verify correct installation
+parent: Technical information
+title: Verify installation
 nav_order: 900
 has_children: false
 ---
