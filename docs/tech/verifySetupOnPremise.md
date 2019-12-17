@@ -1,3 +1,9 @@
+---
+title: Home
+nav_order: 100
+parent: Home
+has_children: false
+---
 # Verify correct installation
 
 Check the *managed Solution* is installed. The version may differ, of course. 
@@ -15,4 +21,3 @@ The package content of version 1.0.2, for example, looked like this  (see: [solu
 ## Contact Form integration
 
 By default, the solution has only one integration point with your Microsoft Dynamics 365 organization: The [Main Form fo the Contact entity](solution\index.md). Verify this is configured properly.
-

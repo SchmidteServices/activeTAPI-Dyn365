@@ -1,9 +1,0 @@
-# Main Menu aka horizontal headline
-# ---------------------------------
-
-- name: User's Guide
-  homepage: index.md
-
-- name: REST API Documentation
-  href: /tech/index.md
-
