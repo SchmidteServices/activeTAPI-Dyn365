@@ -1,10 +1,10 @@
 ---
-title: Use-Case
-nav_order: 3
+title: Use-Cases
+nav_order: 300
 has_children: false
 ---
 
-# Simple use-case
+# Simple Use-Case
 
 In this section you will find a simple use-case that demonstrates the benifits of using _activeTAPI for Microsoft Dynamics 365_.
 
