@@ -21,4 +21,4 @@ You will get this key from your vendor when you have purchased your own license.
 
 ## Plugin.NLog.Config
 
-activeTAPI supports *tracing* for diagnostic purpose, based on [NLog](https://nlog-project.org/). With this configuration setting you can control logging. If this settings is not available, which is the default, logging is disabled. Use this setting only when you got this advice from you vendor to trace down issues with activeTAPI.
+activeTAPI supports *tracing* for diagnostic purpose, based on [NLog](https://nlog-project.org/). With this configuration setting you can control logging. If this settings is not available, which is the default, logging is disabled. Use this setting only when you got advice from your vendor, to trace down issues with activeTAPI.
