@@ -1,8 +1,8 @@
 ---
+parent: Technical information
 title: Settings Entity
-nav_order: 100
-parent: Home
-has_children: true
+nav_order: 200
+has_children: false
 ---
 
 # ActiveTAPI Settings Entity

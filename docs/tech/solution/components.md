@@ -1,9 +1,4 @@
----
-parent: activeTAPI Solution
-title: Solution Components
-nav_order: 200
-has_children: false
----
+
 
 # Solution Components
 
