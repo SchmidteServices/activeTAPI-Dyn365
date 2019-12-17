@@ -16,7 +16,7 @@ activeTAPI for Dynamics 365 adds telephone number validation and formatting to y
 
 #### Microsoft Dynamics 365 - Validate a telephone number
 
-![contactFormatNumber02](../../activeTAPI.net/media/contactFormatNumber02.gif)
+![contactFormatNumber02](README.assets/contactFormatNumber02.gif)
 
 You'll find the technical documentation about how to install in out GitHub Wiki.
 
