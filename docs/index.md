@@ -7,11 +7,7 @@ has_toc: false
 
 # activeTAPI for Microsoft Dynamics 365
 
-<<<<<<< HEAD
-Here, you will find a simple use-case, [technical information](admin/index.md) and background information about _activeTAPI for Microsoft Dynamics 365_.
-=======
 Welcome to *activeTAPI for Microsoft Dynamics 365* technical and background information.
->>>>>>> ba6bbe6cf32befd7980fb5db4c5df1142006c5b8
 
 > If you are looking for marketing or licensing information, 
 > please navigate to http://activeTAPI.net.
