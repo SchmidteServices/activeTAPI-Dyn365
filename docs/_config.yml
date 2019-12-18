@@ -39,4 +39,4 @@ aux_links:
 # color_scheme: "dark"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2019 Schmidt e-Services GmbH i.L"
+footer_content: "Copyright &copy; 2019 Schmidt e-Services GmbH i.L - <a href="https://schmidteservices.github.io/activeTAPI-Dyn365">Document Source on GitPages</a>
