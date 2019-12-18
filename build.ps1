@@ -68,7 +68,7 @@ Write-Output $outDir
 $pdfDir=[System.IO.Path]::GetFullPath( $projectDir + '\pdf')
 $env:Path += ";$toolsBase\wkhtmltox\bin"
 
-& $docfx pdf 	-o "$pdfDir"	--loglevel INFO
+# & $docfx pdf 	-o "$pdfDir"	--loglevel INFO
 # ----------------------------------------------------------------------------------
 
 if( $startWebSite) {

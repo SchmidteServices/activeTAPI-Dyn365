@@ -14,26 +14,34 @@ has_children: false
 | Publisher Display Name  | Markus Schmidt - Dyn365 Pro |
 | Publisher Name | markusschmidtpro |
 | Prefix | `mspro` |
+| Website | http://activeTAPI.net |
 
-![image-20191217155505874](components.assets/image-20191217155505874.png)The *managed Solution* contains the following components (see also: [Solution Overview](index.md))
+
+
+![image-20191217155505874](components.assets/image-20191217155505874.png)
+
+The *activeTAPI Managed Solution* contains the following components:
 
 ## Entities
 
 ### mspro_servicemessage
 
-This is a 'helper' entity that is used as a *core* entity to communicate with a Dynamics Service based on messages. This is an 'internal' entity with out any user-interface.
+This is a core entity of the *MSPro-Dynamics Services Platform*. This entity does not have a user-interface.
 
 ### mspro_settings
 
-This entity contains all settings required for activeTAPI. The entity is available under `Settings --> Extensions --> activeTAPI Settings`.
+This entity contains all settings required for activeTAPI. The entity is available under `Settings --> Extensions --> activeTAPI Settings`. After solution import, this entity is empty and the configuration keys need to be set manually, when required (see [activeTAPI configuration](../settingEntity.md))
 
 ![image-20191217151214810](components.assets/image-20191217151214810.png)
 
-After solution import, this entity is empty and the configuration keys need to be set manually, when required (see [activeTAPI configuration](../settingEntity.md))
-
 ## JavaScript
 
-The two JavaScript files `mspro_/js/activeTapi.js`  and  `mspro_/js/platformServcies.js` contains the JavaScript which is required to communicate with your Dynamics CRM 365 Server.
+The two JavaScript files: 
+
+* `mspro_/js/activeTapi.js`  and  
+* `mspro_/js/platformServcies.js` 
+
+The files contain the JavaScript lettings forms communicate with your Dynamics CRM 365 Server.
 
 > It is important to mention that the Dynamics 365 Client will only communicate with your Dynamics CRM 365 server, using standard SDK functionality: `Xrm.WebApi.createRecord("mspro_servicemessage", serviceMessage).then( ... `. The client will not call or use any resource outside of your 'safe' Microsoft Dynamics CRM 365 environment.
 

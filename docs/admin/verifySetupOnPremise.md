@@ -7,15 +7,11 @@ has_children: false
 
 # {{page.title}}
 
-Check the *managed Solution* is installed. The version may differ, of course. 
-
-> By default, activeTAPI telephone number formatting is activate on the *Contact* entity, only. 
-
-`Dynamics CRM 365 -> Settings --> Solutions`
+Check the *activeTAPI Managed Solution* is installed. The version may differ, of course:  `Dynamics CRM 365 -> Settings --> Solutions`.
 
 ![image-20191217144254538](verifySetupOnPremise.assets/image-20191217144254538.png)
 
-The package content of version 1.0.2, for example, looked like this  (see: [solution components in detail](solution/components.md)):
+The package content of version 1.0.2, for example, looked like follows. 
 
 ![image-20191217144539707](verifySetupOnPremise.assets/image-20191217144539707.png)
 

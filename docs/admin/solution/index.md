@@ -8,7 +8,7 @@ has_children: true
 
 # {{page.title}}
 
-> The Microsoft Dynamics 365 Solution (the activeTAPI package) does not change or modify any functionality in your existing organization. The solution, and also the functionality, are completely separated from all existing items. 
+> Thanks to [*MSPro Dynamics Platform Services*](../servicePlatform/index.md), the Microsoft Dynamics 365 Solution (the activeTAPI package) does not change or modify any functionality in your existing organization. The solution, and also the functionality, are completely separated from all existing items. 
 
 The only connection point that is required to use *activeTAPI* in your organization is a reference on those forms where you want to use telephone number formatting and validation. By default, activeTAPI is activated on the `Contact --> Main Form`, only.
 
