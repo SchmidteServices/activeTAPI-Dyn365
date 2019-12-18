@@ -24,8 +24,10 @@ remote_theme: pmarsceill/just-the-docs
 
 # Aux links for the upper right navigation
 aux_links:
+  "activeTAPI-Dyn365 Docs":
+	- "https://schmidteservices.github.io/activeTAPI-Dyn365"
   "activeTAPI Web-Site":
-    - "http://activeTAPI.net?target='_blank'"
+    - "http://activeTAPI.net"
     
 # Heading anchor links appear on hover over h1-h6 tags in page content
 # allowing users to deep link to a particular heading on a page.
