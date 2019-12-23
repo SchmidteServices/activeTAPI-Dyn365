@@ -1,0 +1,44 @@
+title: activeTAPI-Dyn365
+email: info@activeTAPI.net
+description: > # this means to ignore newlines until "baseurl:"
+  Format and validate telephone numbers
+
+#theme: jekyll-theme-slate
+
+
+markdown: kramdown
+
+# https://jekyllthemes.io/theme/just-the-docs  
+# https://pmarsceill.github.io/just-the-docs/
+remote_theme: pmarsceill/just-the-docs
+
+# Set a path/url to a logo that will be displayed instead of the title
+# logo: "/assets/images/just-the-docs.png"
+
+# Enable or disable the site search
+# Supports true (default) or false
+# search_enabled: true
+
+# Enable support for hyphenated search words:
+# search_tokenizer_separator: /[\s/]+/
+
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub":
+    - "https://github.com/SchmidteServices/activeTAPI-Dyn365"
+  "activeTAPI-Dyn365 Docs":
+    - "https://schmidteservices.github.io/activeTAPI-Dyn365"
+  "activeTAPI Web-Site":
+    - "http://activeTAPI.net"
+    
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+#
+# Supports true (default) or false/nil
+# heading_anchors: true
+
+# Color scheme currently only supports "dark" or nil (default)
+# color_scheme: "dark"
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "Copyright &copy; 2019 Schmidt e-Services GmbH i.L - <a href=\"https://schmidteservices.github.io/activeTAPI-Dyn365\">activeTAPI-Dyn365 on GitPages</a>"
