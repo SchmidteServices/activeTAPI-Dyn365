@@ -1,5 +1,5 @@
 ---
-parent: Knowledge Base
+parent: Known Solutions
 title: Empty Message Block
 nav_order: 700
 has_children: true

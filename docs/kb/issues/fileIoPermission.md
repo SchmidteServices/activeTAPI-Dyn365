@@ -1,5 +1,5 @@
 ---
-parent: Knowledge Base
+parent: Known Solutions
 title: FileIOPermission
 nav_order: 1100
 has_children: true
