@@ -1,3 +1,4 @@
+---
 title: Knowledge Base
 nav_order: 400
 has_children: true
