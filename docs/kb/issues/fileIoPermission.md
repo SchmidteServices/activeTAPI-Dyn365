@@ -27,7 +27,7 @@ PathDiscovery="C:\Program Files\Dynamics 365\Server\bin\Microsoft.Crm.Sandbox.He
 ...
 ```
 
-We have seen this message on in On-Premise enviromments, when the *ServiceMessagePlugin* is registered in *Sandbox Mode*. The error did not occur in online enviroments:
+We have seen this message on in On-Premise environments, when the *ServiceMessagePlugin* is registered in *Sandbox Mode*. The error did not occur in online environments:
 
 ![image-20191223174741103](Untitled.assets/image-20191223174741103.png)
 
