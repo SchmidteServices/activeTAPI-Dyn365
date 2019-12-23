@@ -1,4 +1,4 @@
-title: MSPro Dynamics Platform
+title: MSPro Dynamics Power Platform
 nav_order: 600
 has_children: true
 has_toc: false
