@@ -1,5 +1,5 @@
 title: MSPro Dynamics Power Platform
-nav_order: 600
+nav_order: 800
 has_children: true
 has_toc: false
 

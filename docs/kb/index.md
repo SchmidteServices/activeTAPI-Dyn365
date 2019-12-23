@@ -1,6 +1,7 @@
 title: Knowledge Base
 nav_order: 400
 has_children: true
+has_toc: false
 ---
 
 # Knowledge Base

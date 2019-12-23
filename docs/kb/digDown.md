@@ -1,3 +1,10 @@
+parent: Knowledge Base
+title: Gather information
+nav_order: 100
+has_children: true
+has_toc: false
+---
+
 # Gather information
 
 If you see activeTAPI does do anything, 
@@ -34,4 +41,3 @@ Normally the records which explicitelly refer to *MSPro.PlatformServices.Servcie
 ![image-20191223170812053](digDown.assets/image-20191223170812053.png)
 
 If you encounter an **empty message block**, the Plug-in was not even executed. [Continue reading here](emptyMessageBlock.md).
-

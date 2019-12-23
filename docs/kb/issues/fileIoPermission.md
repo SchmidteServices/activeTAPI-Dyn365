@@ -1,3 +1,10 @@
+parent: Knowledge Base
+title: FileIOPermission
+nav_order: 1100
+has_children: true
+has_toc: false
+---
+
 # FileIOPermission / SecurityException Exception
 
 ## Exception Details

@@ -1,6 +1,13 @@
+parent: Knowledge Base
+title: Contact Support
+nav_order: 900
+has_children: true
+has_toc: false
+---
+
 # Contact support
 
-> **BEFORE OUY SEND US AN E-MAIL**
+> **BEFORE YOU SEND US AN E-MAIL**
 >
 > Please collect the information as described [here](digDown.md) and attach all collected information to the e-mail. Otherwise, we will not be able to process your request.
 
