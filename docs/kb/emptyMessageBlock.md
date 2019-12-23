@@ -1,3 +1,4 @@
+---
 parent: Knowledge Base
 title: Empty Message Block
 nav_order: 700

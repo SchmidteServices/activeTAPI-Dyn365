@@ -1,3 +1,4 @@
+---
 parent: Knowledge Base
 title: Gather information
 nav_order: 100

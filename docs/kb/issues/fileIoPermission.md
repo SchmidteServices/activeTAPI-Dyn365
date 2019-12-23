@@ -1,3 +1,4 @@
+---
 parent: Knowledge Base
 title: FileIOPermission
 nav_order: 1100
