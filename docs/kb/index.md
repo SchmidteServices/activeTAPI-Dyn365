@@ -1,4 +1,9 @@
-# activeTAPI Knowledge Base
+title: Knowledge Base
+nav_order: 400
+has_children: true
+---
+
+# Knowledge Base
 
 In the section we collect solutions for all known issues, you might face when using activeTAPI.
 
