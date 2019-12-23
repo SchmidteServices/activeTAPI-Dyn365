@@ -24,10 +24,12 @@ remote_theme: pmarsceill/just-the-docs
 
 # Aux links for the upper right navigation
 aux_links:
+  "GitHub":
+    - "https://github.com/SchmidteServices/activeTAPI-Dyn365"
   "activeTAPI-Dyn365 Docs":
     - "https://schmidteservices.github.io/activeTAPI-Dyn365"
   "activeTAPI Web-Site":
-    - "<a href=\"http://activeTAPI.net\" target=_blank/>"
+    - "http://activeTAPI.net"
     
 # Heading anchor links appear on hover over h1-h6 tags in page content
 # allowing users to deep link to a particular heading on a page.
@@ -39,4 +41,4 @@ aux_links:
 # color_scheme: "dark"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2019 Schmidt e-Services GmbH i.L - <a href=\"https://schmidteservices.github.io/activeTAPI-Dyn365\">Document Source on GitPages</a>"
+footer_content: "Copyright &copy; 2019 Schmidt e-Services GmbH i.L - <a href=\"https://schmidteservices.github.io/activeTAPI-Dyn365\">activeTAPI-Dyn365 on GitPages</a>"
