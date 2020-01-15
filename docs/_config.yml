@@ -14,6 +14,15 @@ remote_theme: benbalter/retlab
 
 minimal_mistakes_skin: "aqua" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
+        
 ##pmarsceill/just-the-docs
 
 # Set a path/url to a logo that will be displayed instead of the title
