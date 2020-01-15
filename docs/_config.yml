@@ -10,7 +10,7 @@ markdown: kramdown
 
 # https://jekyllthemes.io/theme/just-the-docs  
 # https://pmarsceill.github.io/just-the-docs/
-remote_theme: benbalter/retlab
+# remote_theme: benbalter/retlab
 
 minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
@@ -23,7 +23,7 @@ defaults:
       sidebar:
         nav: "docs"
 
-#remote_theme: pmarsceill/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 # Set a path/url to a logo that will be displayed instead of the title
 # logo: "/assets/images/just-the-docs.png"
