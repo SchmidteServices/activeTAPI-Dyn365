@@ -10,7 +10,7 @@ In this section you will find a couple of use-cases demonstrating the benefits _
 
 ## Prerequisites
 
-Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly](../admin/verifySetupOnPremise.md). Otherwise you might not see any result. After importing the *Solution* activeTAPI should be active on the Contact Main Form.
+Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly](../admin/verifySetupOnPremise.md). Otherwise you might not see any result. After importing the *Solution*, *activeTAPI* is active on the **Contact Main Form**.
 
 ## Enter a valid telephone number
 
@@ -21,6 +21,8 @@ Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly]
 3. Leave the field - navigate to *Mobile Phone*
 4. Check the result: activeTAPI has formatted your 'number sequence'
    ![image-20191217225158248](usecase.assets/image-20191217225158248.png)
+
+> NOTE: The first call to activeTAPI can take several seconds - we have recognized 30 seconds and more. Be patient, if it happens it is only on the very first call of a day. 
 
 ## Enter an invalid area code
 

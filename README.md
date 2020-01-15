@@ -28,6 +28,6 @@ Marketing an licensing information can be found on http://activeTAPI.net.
 
 In case of any question, [contact us by e-mail](mailto:support@activeTAPI.net).
 
-&copy; 2019, Schmidt e-Services GmbH i.L
-Niedernhausener Straße 59a
+&copy; 2020, Schmidt e-Services GmbH i.L
+Niedernhausener Strasse 59a
 D-65207 Wiesbaden
