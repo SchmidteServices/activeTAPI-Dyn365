@@ -1,7 +1,6 @@
-# activeTAPI for Dynamisc 365 
-## Release History
+# Release History
 
-### v1.1.0	2019-12-31
+#### v1.1.0	2019-12-31
 
 * `DataContract` and `DataAnnotations` removed
   * using `NewtonSoft` everywhere
