@@ -1,8 +1,5 @@
 ---
-parent: Technical information
-nav_order: 900
 title: Verify installation
-has_children: false
 ---
 
 # {{page.title}}

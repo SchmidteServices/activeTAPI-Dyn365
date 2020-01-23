@@ -1,10 +1,3 @@
----
-parent: Technical information
-nav_order: 800
-title: Settings Entity
-has_children: false
----
-
 # activeTAPI Settings Entity
 
 activeTAPI comes with its own entity which contains all settings. This entity is a simple key-value list, for example:
