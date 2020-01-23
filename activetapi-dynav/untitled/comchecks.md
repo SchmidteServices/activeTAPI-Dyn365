@@ -1,3 +1,7 @@
+---
+description: Check correct installation
+---
+
 # ComChecks
 
 ComChecks is a small application which checks the correct installation of activeTAPI. It checks, all required COM-Objects are registered and all .NET Components are installed and reachable.
