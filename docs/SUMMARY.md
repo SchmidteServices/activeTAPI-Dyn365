@@ -6,7 +6,7 @@
 
 * [Introduction](dyn365/introduction.md)
 * [Technical Information](dyn365/admin/README.md)
-  * [Settings Entity](dyn365/admin/settings1.md)
+  * [Settings Entity](dyn365/admin/settingentity.md)
   * [On-Premise Setup](dyn365/admin/on-premise-setup.md)
 * [Knowledge Base](dyn365/kb/README.md)
   * [Gather information](dyn365/kb/gather-information.md)
@@ -16,3 +16,4 @@
 ## Dynamics-Service Platform <a id="serviceplatform"></a>
 
 * [Introduction](serviceplatform/introduction.md)
+
