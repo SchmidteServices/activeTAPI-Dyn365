@@ -2,8 +2,8 @@
 
 * [Homepage](README.md)
 
-## gr
+## Group <a id="groupslug"></a>
 
-* [Untitled](gr/untitled.md)
-* [Untitled](untitled.md)
+* [Page L1](groupslug/untitled/README.md)
+  * [Subpage](groupslug/untitled/untitled.md)
 
