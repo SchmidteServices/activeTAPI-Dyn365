@@ -13,7 +13,11 @@
   * [Contact-Us](dyn365/kb/contact-us.md)
 * [Simple Use-Cases](dyn365/usecase.md)
 
-## Dynamics-Service Platform <a id="serviceplatform"></a>
+## Dynamics Service Bus <a id="serviceplatform"></a>
 
 * [Introduction](serviceplatform/introduction.md)
+
+## activeTAPI-REST Service
+
+* [activeTAPI-REST API](https://activetapi3.azurewebsites.net/swagger/index.html)
 
