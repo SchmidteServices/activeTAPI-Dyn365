@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Homepage](README.md)
+* [activeTAPI Docs](README.md)
 
 ## activeTAPI-Dyn365 <a id="dyn365"></a>
 
