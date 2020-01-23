@@ -4,6 +4,7 @@
 
 ## Group <a id="groupslug"></a>
 
+* [User](groupslug/user.md)
 * [Page L1](groupslug/untitled/README.md)
   * [Subpage](groupslug/untitled/untitled.md)
 
