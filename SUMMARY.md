@@ -9,6 +9,6 @@
 
 ## activeTAPI-DyNav
 
-* [Home](activetapi-dynav/untitled/README.md)
-  * [ComChecks](activetapi-dynav/untitled/comchecks.md)
+* [Release notes for NAV 2015](activetapi-dynav/dynavhome/README.md)
+  * [ComChecks](activetapi-dynav/dynavhome/comchecks.md)
 

@@ -1,4 +1,4 @@
-# Home
+# Release notes for NAV 2015
 
 [Next](myPage)
 
