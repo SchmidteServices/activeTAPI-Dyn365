@@ -19,7 +19,7 @@ Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly]
 
    enter a _Business Phone_ telephone number
 
-   ![image-20191217225001259](../../.gitbook/assets/image-20191217225001259.png)
+   ![image-20191217225001259](./usecase.assets/image-20191217225001259.png)
 
 3. Leave the field - navigate to _Mobile Phone_
 4. Check the result: activeTAPI has formatted your 'number sequence'
