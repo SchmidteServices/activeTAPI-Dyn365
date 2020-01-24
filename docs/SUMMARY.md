@@ -17,7 +17,8 @@
 
 * [MSPro Dynamics 365 - Platform Services](serviceplatform/introduction.md)
 
-## activeTAPI-REST Service
+## activeTAPI-REST Service <a id="actrest"></a>
 
+* [Overview](actrest/overview.md)
 * [activeTAPI-REST API](https://activetapi3.azurewebsites.net/swagger/index.html)
 
