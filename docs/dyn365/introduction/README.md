@@ -12,9 +12,11 @@ _Solutions are how customizers and developers author, package, and maintain unit
 
 The functionality is simple and powerful. It validates and formats telephone numbers while you're entering them.
 
-![fabrikamOnline-1577111365175](../../.gitbook/assets/fabrikamonline-1577111365175%20%281%29.gif)
+![fabrikamOnline-1577111365175](./README.assets/fabrikamOnline-1577111365175.gif)
 
 Behind the scenes, all activeTAPI validation and formatting logic comes from the [activeTAPI-REST Service](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/57dcfc0129991ba93a6e0a41b9b7beea4c8ee42b/docs/actrest/README.md). The Solution itself contains only the components required to integrate this service with the Dynamics platform.
+
+![img](https://docs.activetapi.net/dyn365/introduction/README.assets/fabrikamOnline-1577111365175.gif)
 
 Out-of-the-box activeTAPI becomes active on your Dynamics 365 Contact Main Form, only. However, you can configure activeTAPI to format telephone numbers wherever you want - [more...](../admin/) .
 
