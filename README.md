@@ -1,10 +1,8 @@
-# Homepage
+# activeTAPI - Public Information
 
-If you are looking for [**technical documentation** go to GitHub Pages](https://schmidteservices.github.io/activeTAPI-Dyn365/).
+Validate and format telephone numbers for Microsoft **Power Apps** and **Dynamics 365** or use the **activeTAPI-REST Service**. Improve your data quality significantly with clean and valid telephone numbers.
 
-Validate and format telephone numbers for Microsoft **Power Apps** and **Dynamics 365**. Improve your data quality significantly with clean and valid telephone numbers.
-
-![fabrikamOnline](.gitbook/assets/fabrikamonline-1577111365175.gif)
+![fabrikamOnline](README.assets/fabrikamonline-1577111365175.gif)
 
 ```text
 004989334455    -->    +49 (89) 334455
@@ -14,11 +12,11 @@ Validate and format telephone numbers for Microsoft **Power Apps** and **Dynamic
 
 ### Microsoft Dynamics 365 - Validate a telephone number
 
-![contactFormatNumber02](.gitbook/assets/contactformatnumber02.gif)
+![contactFormatNumber02](README.assets/contactformatnumber02.gif)
 
-## Technical documentation
+## Technical Documentation
 
-You'll find the technical documentation on [GitHub Pages](https://schmidteservices.github.io/activeTAPI-Dyn365/) or in the repositories `docs` folder.
+You'll find all [technical documentation](https://docs.activetapi.net/) on *GitBook* or in the `docs` folder of this repository.
 
 ## Marketing and Licensing
 
@@ -26,5 +24,9 @@ Marketing an licensing information can be found on [http://activeTAPI.net](http:
 
 In case of any question, [contact us by e-mail](mailto:support@activeTAPI.net).
 
-© 2020, Schmidt e-Services GmbH i.L Niedernhausener Strasse 59a D-65207 Wiesbaden
+<sub>© 2020, Schmidt e-Services GmbH i.L, [Markus Schmidt](http://markusschmidt.pro), Niedernhausener Strasse 59a D-65207 Wiesbaden</sub>
+
+
+
+
 
