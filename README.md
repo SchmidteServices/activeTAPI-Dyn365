@@ -12,7 +12,7 @@ Validate and format telephone numbers for Microsoft **Power Apps** and **Dynamic
 
 ### Microsoft Dynamics 365 - Validate a telephone number
 
-![contactFormatNumber02](./README.assets/contactformatnumber02.gif)
+![contactFormatNumber02](./README.assets/contactFormatNumber02.gif)
 
 ## Technical Documentation
 
