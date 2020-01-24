@@ -8,7 +8,7 @@
   * [Show-Cases](dyn365/introduction/usecase.md)
 * [Technical Information](dyn365/admin/README.md)
   * [Installation](dyn365/admin/installation/README.md)
-    * [On-Premise Verify Setup](dyn365/admin/installation/verifysetuponpremise.md)
+    * [On-Premise installation](dyn365/admin/installation/verifysetuponpremise.md)
   * [Configuration](dyn365/admin/configuration/README.md)
     * [Settings Entity](dyn365/admin/configuration/settingentity.md)
 * [Knowledge Base](dyn365/kb/README.md)

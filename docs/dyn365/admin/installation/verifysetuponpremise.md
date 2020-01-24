@@ -1,8 +1,9 @@
 ---
 title: Verify installation
+description: Verify the correct setup
 ---
 
-# On-Premise Verify Setup
+# On-Premise installation
 
 ## 
 
