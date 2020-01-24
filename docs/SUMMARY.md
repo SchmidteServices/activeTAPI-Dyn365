@@ -1,5 +1,6 @@
 # Table of contents
 
+* [activeTAPI Docs](GitBooks_HOME.md)
 * [activeTAPI Docs](README.md)
 
 ## activeTAPI-Dyn365 <a id="dyn365"></a>
