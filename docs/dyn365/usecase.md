@@ -2,11 +2,10 @@
 title: Use-Cases
 nav_order: 300
 has_children: false
+description: Use-Cases demonstrating the benefits of activeTAPI for Microsoft Dynamics 365.
 ---
 
 # Simple Use-Cases
-
-In this section you will find a couple of use-cases demonstrating the benefits _activeTAPI for Microsoft Dynamics 365_.
 
 ## Prerequisites
 
