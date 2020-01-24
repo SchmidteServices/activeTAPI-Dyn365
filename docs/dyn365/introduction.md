@@ -1,16 +1,19 @@
 ---
-description: activeTAPI for Microsoft Dynamics 365 - Technical and background information
+description: activeTAPI for Microsoft Dynamics 365 & Power Apps
 ---
 
 # Introduction
 
-Welcome to _activeTAPI for Microsoft Dynamics 365_ technical and background information.
+_activeTAPI for Microsoft Dynamics 365 & Power Apps_ is a Solution that extends Microsoft's Common Data Service.
 
-> If you are looking for marketing or licensing information, please navigate to [activeTAPI.net](https://activeTAPI.net).&gt;
+{% hint style="info" %}
+_Solutions are how customizers and developers author, package, and maintain units of software that extend Common Data Service. For example, Dynamics 365 for Sales, Marketing, Customer Service apps are composed of solutions. Customizers and developers distribute solutions so that organizations can use Common Data Service to install and uninstall the business functionality defined by the solution. \(_[_ref. Microsoft Power Apps_](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/introduction-solutions)_\)_
+{% endhint %}
 
-So far, we have tested activeTAPI with Microsoft Dynamics 365 CRM On-Premise. A package for Microsoft Dynamics 365 CE is available on Microsoft-AppSource.
+### activeTAPI-Dyn365
 
-## Older Microsoft Dynamics CRM Versions
+In short, the product is called **_activeTAPI-Dyn365_**. It has passed Microsoft tests and it is available on _AppSource_, as well as a separate [download](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/master/download) \(Solution ZIP package\). 
 
-Initially, activeTAPI was integrated with **Microsoft Dynamics CRM 2011**. activeTAPI is based on the [_MSPro Dynamics Platform Services_](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/11681f8466f1d8de3b286098910a2ec802fb3116/docs/dyn365/serviceplatform/introduction.md) Technology which makes it very independent of the Dynamics version. However, client-side scripting for a\) Platform communication and b\) for displaying messages on the form had to be adjusted. We do not yet have this out-of-the-box, but if you are interested in some kind of "joint venture" to adapt activeTAPI, [let us know](mailto:msc@activeTAPI.net).
-
+{% hint style="info" %}
+You may use the ZIP package for installation on your Microsoft 365 CRM On-Premise environment.
+{% endhint %}
