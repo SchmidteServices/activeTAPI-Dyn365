@@ -6,9 +6,7 @@ description: activeTAPI for Microsoft Dynamics 365 - Technical and background in
 
 Welcome to _activeTAPI for Microsoft Dynamics 365_ technical and background information.
 
-{% hint style="info" %}
-If you are looking for marketing or licensing information, please navigate to [activeTAPI.net](https://activeTAPI.net).
-{% endhint %}
+> If you are looking for marketing or licensing information, please navigate to [activeTAPI.net](https://activeTAPI.net).> 
 
 So far, we have tested activeTAPI with Microsoft Dynamics 365 CRM On-Premise. A package for Microsoft Dynamics 365 CE is available on Microsoft-AppSource.
 
