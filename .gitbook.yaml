@@ -1,1 +1,5 @@
 root: ./docs/
+
+structure:  
+    readme: ./GitBooks_HOME.md
+    summary: ./SUMMARY.md
