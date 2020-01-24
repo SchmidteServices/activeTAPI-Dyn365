@@ -16,7 +16,7 @@ The functionality is simple and powerful. It validates and formats telephone num
 
 Behind the scenes, all activeTAPI validation and formatting logic comes from the [activeTAPI-REST Service](../../actrest/README.md). The Solution itself contains only the components required to integrate this service with the Dynamics platform.
 
-Out-of-the-box activeTAPI becomes active on your Dynamics 365 Contact Main Form, only. However, you can configure activeTAPI to format telephone numbers wherever you want - [more...](../../admin/README.md) .
+Out-of-the-box activeTAPI becomes active on your Dynamics 365 Contact Main Form, only. However, you can configure activeTAPI to format telephone numbers wherever you want - [more...](../admin/README.md) .
 
 ## activeTAPI-Dyn365
 
