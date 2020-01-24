@@ -12,18 +12,19 @@ _Solutions are how customizers and developers author, package, and maintain unit
 
 The functionality is simple and powerful. It validates and formats telephone numbers while you're entering them.
 
-![fabrikamOnline-1577111365175](introduction.assets/fabrikamOnline-1577111365175.gif)
+![fabrikamOnline-1577111365175](../../.gitbook/assets/fabrikamonline-1577111365175%20%281%29.gif)
 
-Behind the scenes, all activeTAPI validation and formatting logic comes from the [activeTAPI-REST Service](../actrest/README.md). The Solution itself contains only the components required to integrate this service with the Dynamcis platform.
+Behind the scenes, all activeTAPI validation and formatting logic comes from the [activeTAPI-REST Service](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/57dcfc0129991ba93a6e0a41b9b7beea4c8ee42b/docs/actrest/README.md). The Solution itself contains only the components required to integrate this service with the Dynamics platform.
 
-Out-of-the-box activeTAPI becomes active on your Dynamics 365 Contact Main Form, only. However, you can configure activeTAPI to format telephone numbers wherever you want - [more...](admin/README.md) .
+Out-of-the-box activeTAPI becomes active on your Dynamics 365 Contact Main Form, only. However, you can configure activeTAPI to format telephone numbers wherever you want - [more...](../admin/) .
 
-### activeTAPI-Dyn365
+## activeTAPI-Dyn365
 
-In short, the product is called **_activeTAPI-Dyn365_**. It has passed Microsoft tests and it is available on _AppSource_, as well as a separate [download](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/master/download) \(Solution ZIP package\). 
+In short, the product is called _**activeTAPI-Dyn365**_. It has passed Microsoft tests and it is available on _AppSource_, as well as a separate [download](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/master/download) \(Solution ZIP package\).
 
 {% hint style="info" %}
 You may use the ZIP package for installation on your Microsoft 365 CRM On-Premise environment.
 {% endhint %}
 
 See activeTAPI in acti
+

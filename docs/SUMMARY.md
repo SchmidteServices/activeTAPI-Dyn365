@@ -4,7 +4,7 @@
 
 ## activeTAPI-Dyn365 <a id="dyn365"></a>
 
-* [Introduction](dyn365/introduction.md)
+* [Introduction](dyn365/introduction/README.md)
   * [Show-Cases](dyn365/usecase.md)
 * [Technical Information](dyn365/admin/README.md)
   * [Settings Entity](dyn365/admin/settingentity.md)
@@ -12,7 +12,6 @@
 * [Knowledge Base](dyn365/kb/README.md)
   * [Gather information](dyn365/kb/gather-information.md)
   * [Contact-Us](dyn365/kb/contact-us.md)
-
 
 ## MSPro Dynamics 365 Service Bus <a id="serviceplatform"></a>
 
