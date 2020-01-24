@@ -2,14 +2,16 @@
 title: Use-Cases
 nav_order: 300
 has_children: false
-description: Use-Cases demonstrating the benefits of activeTAPI for Microsoft Dynamics 365.
+description: >-
+  Show-Cases demonstrating the benefits of activeTAPI for Microsoft Dynamics
+  365.
 ---
 
 # Show-Cases
 
 ## Prerequisites
 
-Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/b6d9c36fa57b53fbf81fa104d98afb5c1022a982/docs/admin/verifySetupOnPremise.md). Otherwise you might not see any result. After importing the _Solution_, _activeTAPI_ is active on the **Contact Main Form**.
+Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly](../admin/installation/verifysetuponpremise.md). Otherwise you might not see any result. After importing the _Solution_, _activeTAPI_ is active on the **Contact Main Form**.
 
 ## Enter a valid telephone number
 
