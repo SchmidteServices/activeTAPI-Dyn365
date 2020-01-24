@@ -15,7 +15,7 @@
 
 ## Dynamics Service Bus <a id="serviceplatform"></a>
 
-* [Dynamics 365 - Platform Service](serviceplatform/introduction.md)
+* [MSPro Dynamics 365 - Platform Service](serviceplatform/introduction.md)
 
 ## activeTAPI-REST Service
 
