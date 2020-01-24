@@ -5,7 +5,7 @@
 ## activeTAPI-Dyn365 <a id="dyn365"></a>
 
 * [Introduction](dyn365/introduction/README.md)
-  * [Show-Cases](dyn365/usecase.md)
+  * [Show-Cases](dyn365/introduction/usecase.md)
 * [Technical Information](dyn365/admin/README.md)
   * [Settings Entity](dyn365/admin/settingentity.md)
   * [On-Premise Setup](dyn365/admin/verifysetuponpremise.md)

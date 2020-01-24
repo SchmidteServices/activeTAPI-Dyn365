@@ -12,7 +12,7 @@ _Solutions are how customizers and developers author, package, and maintain unit
 
 The functionality is simple and powerful. It validates and formats telephone numbers while you're entering them.
 
-
+![](../../.gitbook/assets/fabrikamonline.gif)
 
 Behind the scenes, all activeTAPI validation and formatting logic comes from the [activeTAPI-REST Service](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/57dcfc0129991ba93a6e0a41b9b7beea4c8ee42b/docs/actrest/README.md). The Solution itself contains only the components required to integrate this service with the Dynamics platform.
 
