@@ -25,7 +25,7 @@ Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly]
 3. Leave the field - navigate to _Mobile Phone_
 4. Check the result: activeTAPI has formatted your 'number sequence'
 
-   ![image-20191217225158248](../../.gitbook/assets/image-20191217225158248%20%282%29.png)
+   ![image-20191217225158248](../../.gitbook/assets/image-20191217225158248%20%283%29.png)
 
 > NOTE: The first call to activeTAPI can take several seconds - we have recognized 30 seconds and more. Be patient, if it happens it is only on the very first call of a day.
 
