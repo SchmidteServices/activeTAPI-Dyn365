@@ -2,7 +2,7 @@
 
 Validate and format telephone numbers for Microsoft **Power Apps** and **Dynamics 365** or use the **activeTAPI-REST Service**. Improve your data quality significantly with clean and valid telephone numbers.
 
-![fabrikamOnline](./README.assets/fabrikamonline-1577111365175.gif)
+![fabrikamOnline](./README.assets/fabrikamOnline-1577111365175.gif)
 
 ```text
 004989334455    -->    +49 (89) 334455
