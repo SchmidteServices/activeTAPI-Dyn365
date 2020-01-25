@@ -1,10 +1,4 @@
----
-parent: activeTAPI Solution
-title: Solution Components
-has_children: false
----
-
-# Components
+# Solution Components
 
 | Field | Content |
 | :--- | :--- |
@@ -13,7 +7,7 @@ has_children: false
 | Prefix | `mspro` |
 | Website | [http://activeTAPI.net](http://activeTAPI.net) |
 
-![image-20191217155505874](../../../.gitbook/assets/image-20191217155505874%20%281%29.png)
+![](../../../.gitbook/assets/image-20191217155505874%20%281%29.png)
 
 The _activeTAPI Managed Solution_ contains the following components:
 
@@ -51,4 +45,3 @@ It is important to notice that this Plugin does not execute on any existing enti
 ![image-20191217153629482](../../../.gitbook/assets/image-20191217153629482%20%281%29.png)
 
 The purpose of this Plugin is, to execute activeTAPI service requests. This means, all activeTAPI logic is server-side and executes in the context of this Plugin.
-
