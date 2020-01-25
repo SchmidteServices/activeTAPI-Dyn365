@@ -38,10 +38,11 @@ The files contain the JavaScript lettings forms communicate with your Dynamics C
 
 activeTAPI uses one Plugin that is registered on the `mspro_servicemessage`entity as follows:
 
-![](../../../.gitbook/assets/image-20191217153539852.png)
+![](../../../.gitbook/assets/image-20191217153539852%20%281%29.png)
 
 It is important to notice that this Plugin does not execute on any existing entity!
 
 ![](../../../.gitbook/assets/image-20191217153629482.png)
 
 The purpose of this Plugin is, to execute activeTAPI service requests. This means, all activeTAPI logic is server-side and executes in the context of this Plugin.
+

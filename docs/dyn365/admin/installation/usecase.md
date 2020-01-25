@@ -33,7 +33,7 @@ The first time when you use activeTAPI it may take several seconds \(up to 30 se
 
 In Germany, 0141 is an unknown area code. Let's simulate a typo and enter `0141 556677` instead of the correct `0151 556677` - which is a mobile number.
 
-![image-20191217225725243](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/f5ae9583b31952ca3f3ff42e5b6e11242bfd569d/docs/.gitbook/assets/image-20191217225725243.png)
+![](../../../.gitbook/assets/image-20191217225725243.png)
 
 _Country: guessed_: The entered number did not contain a country code. That's why activeTAPI is 'guessing' a configurable default country code. In this case +49 for Germany.
 
