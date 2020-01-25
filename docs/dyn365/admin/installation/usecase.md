@@ -41,21 +41,21 @@ _Area: uncertain_: activeTAPI could not find any match for the given area, in th
 
 Let's fix the area code to `0151`and see what happens:
 
-![image-20191217230313428](../../../.gitbook/assets/image-20191217230313428%20%282%29.png)
+![](../../../.gitbook/assets/showcase_0104.png)
 
 Obviously activeTAPI has adjusted the area code, and it seems even area code `0151`is only half the truth: `015112` is the full area code:
 
-![image-20191217230408983](../../../.gitbook/assets/image-20191217230408983%20%281%29.png)
+![](../../../.gitbook/assets/showcase_0105.png)
 
 ## Country codes
 
 Let's play with country codes: +1 is the country code for the United States of America \(and other countries\). activeTAPI recognizes a leading '00' or a '+' as: _the number starts with a country code_.
 
-![image-20191217230749937](../../../.gitbook/assets/image-20191217230749937%20%282%29.png)
+![](../../../.gitbook/assets/showcase_0106.png)
 
 activeTAPI recognized the country is ok, however for this country somethings is wrong with the area code:
 
-![image-20191217230845069](../../../.gitbook/assets/image-20191217230845069%20%282%29.png)
+![](../../../.gitbook/assets/showcase_0107.png)
 
 Fix area code to:
 
