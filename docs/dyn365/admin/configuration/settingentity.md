@@ -2,7 +2,7 @@
 
 activeTAPI comes with its own entity which contains all settings. This entity is a simple key-value list, for example:
 
-![image-20191217151534194](../../../.gitbook/assets/image-20191217151534194.png)
+![](../../../.gitbook/assets/settings_entity.png)
 
 The following keys can be used:
 
