@@ -8,6 +8,7 @@
 * [Technical Information](dyn365/admin/README.md)
   * [Installation](dyn365/admin/installation/README.md)
     * [Show-Cases](dyn365/admin/installation/usecase.md)
+    * [Extend Integration](dyn365/admin/installation/extend-integration.md)
   * [Configuration](dyn365/admin/configuration/README.md)
     * [Settings Entity](dyn365/admin/configuration/settingentity.md)
   * [Solution Package](dyn365/admin/solution/README.md)
