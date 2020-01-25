@@ -1,18 +1,16 @@
 # Settings Entity
 
-activeTAPI comes with its own entity which contains all settings. This entity is a simple key-value list, for example:
+activeTAPI comes with its own settings entity. This entity is a simple key-value list:
 
 ![](../../../.gitbook/assets/settings_entity.png)
 
-The following keys can be used:
+The keys listed below can be used.
 
-> Please notice the **keys and values** are **Case-Sensitive**!
+{% hint style="warning" %}
+Please notice the keys and values are Case-Sensitive!
+{% endhint %}
 
 ## ActiveTAPI.ClientId
 
 You will get this key from your vendor when you have purchased your own license. Without this settings, activeTAPI uses the [shared license](http://activetapi.net/licensing/sharedlicense/?target=_blank).
-
-## Plugin.NLog.Config
-
-activeTAPI supports _tracing_ for diagnostic purpose, based on [NLog](https://nlog-project.org/). With this configuration setting you can control logging. If this settings is not available, which is the default, logging is disabled. Use this setting only when you got advice from your vendor, to trace down issues with activeTAPI.
 
