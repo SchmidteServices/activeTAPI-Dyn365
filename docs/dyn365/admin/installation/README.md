@@ -18,7 +18,9 @@ You need administrative privileges to install activeTAPI.
 2. Import the Solution ZIP Package into your organization.
 3. Start using it ... as, for example, demonstrated in our [show-case](usecase.md). 
 
-## Online Installation
+## Installation from Marketplace
+
+If you are using Dynamics 365 Online you may install directly from the _App Source Marketplace_.
 
 1. Navigate to Microsoft [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/schmidteservices.activetapi).
 2. Click on `Get it now` and follow the instructions.
