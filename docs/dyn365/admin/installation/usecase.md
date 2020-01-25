@@ -69,3 +69,7 @@ If you try an invalid country code, you might see this:
 
 ![](../../../.gitbook/assets/showcase_0110.PNG)
 
+{% hint style="info" %}
+In case, you have a telephone number where you think formatting is not correct, let us have a look! Send us the number you entered and we will check!
+{% endhint %}
+
