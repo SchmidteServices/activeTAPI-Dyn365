@@ -59,13 +59,13 @@ activeTAPI recognized the country is ok, however for this country somethings is 
 
 Fix area code to:
 
-![image-20191217230946056](../../../.gitbook/assets/image-20191217230946056%20%282%29.png)
+![](../../../.gitbook/assets/showcase_0108.png)
 
 and activeTAPI takes care for the rest.
 
-![image-20191217231014039](../../../.gitbook/assets/image-20191217231014039%20%281%29.png)
+![](../../../.gitbook/assets/showcase_0109.png)
 
 If you try an invalid country code, you might see this:
 
-![img](../../../.gitbook/assets/snaghtml1e272f5%20%282%29.PNG)
+![](../../../.gitbook/assets/showcase_0110.PNG)
 
