@@ -16,7 +16,7 @@ You need administrative privileges to install activeTAPI.
 
 1. [Download](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/master/download) the latest Solution \(ZIP Package\) from GitHub.
 2. Import the Solution ZIP Package into your organization.
-3. Start using it ... as, for example, demonstrated in our [show-case](../../introduction/usecase.md). 
+3. Start using it ... as, for example, demonstrated in our [show-case](usecase.md). 
 
 ## Online Installation
 
@@ -25,5 +25,10 @@ You need administrative privileges to install activeTAPI.
 
 ![AppSource Overview](../../../.gitbook/assets/appsourceoverview.png)
 
+{% hint style="warning" %}
+Be patient - Installation may take several minutes!  
+Unfortunately, this process is completely under control of Microsoft ... go and get a cup of coffee!
+{% endhint %}
 
+* Start using it ... as, for example, demonstrated in our [show-case](usecase.md). 
 
