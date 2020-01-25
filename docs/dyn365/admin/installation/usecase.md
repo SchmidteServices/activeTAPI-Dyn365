@@ -18,12 +18,12 @@ Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly]
 
    enter a _Business Phone_ telephone number
 
-   ![image-20191217225001259](../../../.gitbook/assets/contact_card.png)
+   ![contact_card](../../../.gitbook/assets/contact_card.png)
 
 3. Leave the field
 4. Check the result: activeTAPI has formatted your 'number sequence' into a canonical number.
 
-   ![image-20191217225158248](../../../.gitbook/assets/contact_phonenumer_canonical.png)
+   ![contact_phonenumer_canonical](../../../.gitbook/assets/contact_phonenumer_canonical.png)
 
 {% hint style="danger" %}
 The first time when you use activeTAPI it may take several seconds \(up to 30 sec\) until you see the results. 
@@ -72,4 +72,3 @@ If you try an invalid country code, you might see this:
 {% hint style="info" %}
 In case, you have a telephone number where you think formatting is not correct, let us have a look! Send us the number you entered and we will check!
 {% endhint %}
-

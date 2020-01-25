@@ -10,6 +10,8 @@
     * [Show-Cases](dyn365/admin/installation/usecase.md)
   * [Configuration](dyn365/admin/configuration/README.md)
     * [Settings Entity](dyn365/admin/configuration/settingentity.md)
+  * [Solution Package](dyn365/admin/solution/README.md)
+    * [Components](dyn365/admin/solution/components.md)
 * [Knowledge Base](dyn365/kb/README.md)
   * [Verify Installation](dyn365/kb/verifyinstonpremise.md)
   * [Gather information](dyn365/kb/gather-information.md)
@@ -24,4 +26,3 @@
 
 * [Overview](actrest/overview.md)
 * [activeTAPI-REST API](https://activetapi3.azurewebsites.net/swagger/index.html)
-
