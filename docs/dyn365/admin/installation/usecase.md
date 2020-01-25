@@ -14,26 +14,26 @@ Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly]
 ## Enter a valid telephone number
 
 1. Navigate to the Contact Main Form
-2. Create a new Contact and 
+2. Create a new Contact and
 
    enter a _Business Phone_ telephone number
 
-   ![contact_card](../../../.gitbook/assets/contact_card.png)
+   ![contact\_card](../../../.gitbook/assets/contact_card%20%281%29.png)
 
 3. Leave the field
 4. Check the result: activeTAPI has formatted your 'number sequence' into a canonical number.
 
-   ![contact_phonenumer_canonical](../../../.gitbook/assets/contact_phonenumer_canonical.png)
+   ![contact\_phonenumer\_canonical](../../../.gitbook/assets/contact_phonenumer_canonical%20%281%29.png)
 
 {% hint style="danger" %}
-The first time when you use activeTAPI it may take several seconds \(up to 30 sec\) until you see the results. 
+The first time when you use activeTAPI it may take several seconds \(up to 30 sec\) until you see the results.
 {% endhint %}
 
 ## Enter an invalid area code
 
 In Germany, 0141 is an unknown area code. Let's simulate a typo and enter `0141 556677` instead of the correct `0151 556677` - which is a mobile number.
 
-![image-20191217225725243](../../../.gitbook/assets/image-20191217225725243.png)
+![image-20191217225725243](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/f5ae9583b31952ca3f3ff42e5b6e11242bfd569d/docs/.gitbook/assets/image-20191217225725243.png)
 
 _Country: guessed_: The entered number did not contain a country code. That's why activeTAPI is 'guessing' a configurable default country code. In this case +49 for Germany.
 
@@ -41,11 +41,11 @@ _Area: uncertain_: activeTAPI could not find any match for the given area, in th
 
 Let's fix the area code to `151`and see what happens:
 
-![](../../../.gitbook/assets/showcase_0104.png)
+![](../../../.gitbook/assets/showcase_0104%20%281%29.png)
 
 Obviously activeTAPI has adjusted the area code, and it seems even area code `151`is only half the truth: `15112` is the full area code:
 
-![](../../../.gitbook/assets/showcase_0105.png)
+![](../../../.gitbook/assets/showcase_0105%20%281%29.png)
 
 ## Country codes
 
@@ -59,7 +59,7 @@ activeTAPI recognized the country is ok, however for this country somethings is 
 
 Fix area code to:
 
-![](../../../.gitbook/assets/showcase_0108.png)
+![](../../../.gitbook/assets/showcase_0108%20%281%29.png)
 
 and activeTAPI takes care of the rest.
 
@@ -72,3 +72,4 @@ If you try an invalid country code, you might see this:
 {% hint style="info" %}
 In case, you have a telephone number where you think formatting is not correct, let us have a look! Send us the number you entered and we will check!
 {% endhint %}
+
