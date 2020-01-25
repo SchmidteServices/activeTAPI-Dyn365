@@ -2,7 +2,7 @@
 description: Extend the Dynamics Platform with your own services
 ---
 
-# MSPro Dynamics Platform Services
+# MSPro Dynamics 365 - Platform Services
 
 **MSPro** is me: Markus Schmidt - [http://markuschmidt.pro](http://markuschmidt.pro)
 
