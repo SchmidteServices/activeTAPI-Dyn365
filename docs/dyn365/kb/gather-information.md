@@ -13,7 +13,7 @@ follow these steps:
 
    NOTE: Depending whether you're using Dynamics 365 Online, Power Apps or on Dynamicsi 365 On-Premise, there are different way to accomplish this. Finally, you will find the _Plug-In Trace Log_ here:
 
-   ![image-20191223164102288](../../.gitbook/assets/image-20191223164102288%20%281%29.png)
+   ![image-20191223164102288](../../.gitbook/assets/enable_plugin_trace2.png)
 
 3. Before we can see anything, we need to **reproduce the 'problem'**.
 4. Enter a telephone number and let activeTAPI \(try to\) format it. Well, activeTAPI does not actually format the telephone number. That is the reason why you're reading these pages, isn't it? Btt now, you have got some mor information!
