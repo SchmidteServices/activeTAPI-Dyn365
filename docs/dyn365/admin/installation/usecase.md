@@ -2,16 +2,14 @@
 title: Use-Cases
 nav_order: 300
 has_children: false
-description: >-
-  Show-Cases demonstrating the benefits of activeTAPI for Microsoft Dynamics
-  365.
+description: Try it out after you have installed it
 ---
 
 # Show-Cases
 
 ## Prerequisites
 
-Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly](../../kb/verifyinstonpremise.md). Otherwise you might not see any result. After importing the _Solution_, _activeTAPI_ is active on the **Contact Main Form**.
+Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly](../../kb/verifyinstonpremise.md). Then _activeTAPI_ is active on the **Contact Main Form**.
 
 ## Enter a valid telephone number
 
@@ -22,12 +20,14 @@ Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly]
 
    ![image-20191217225001259](../../../.gitbook/assets/image-20191217225001259.png)
 
-3. Leave the field - navigate to _Mobile Phone_
-4. Check the result: activeTAPI has formatted your 'number sequence'
+3. Leave the field
+4. Check the result: activeTAPI has formatted your 'number sequence' into a canonical number.
 
    ![image-20191217225158248](../../../.gitbook/assets/image-20191217225158248%20%283%29.png)
 
-> NOTE: The first call to activeTAPI can take several seconds - we have recognized 30 seconds and more. Be patient, if it happens it is only on the very first call of a day.
+{% hint style="danger" %}
+The first time when you use activeTAPI it may take several seconds \(up to 30 sec\) until you see the results. 
+{% endhint %}
 
 ## Enter an invalid area code
 
@@ -35,15 +35,15 @@ In Germany, 0141 is an unknown area code. Let's simulate a typo and enter `0141 
 
 ![image-20191217225725243](../../../.gitbook/assets/image-20191217225725243.png)
 
-_\*Country: guessed_: The entered number did not contain a country code. That's why activeTAPI is 'guessing' a configurable default country code. In this case +49 for Germany.
+_Country: guessed_: The entered number did not contain a country code. That's why activeTAPI is 'guessing' a configurable default country code. In this case +49 for Germany.
 
-_Area: uncertain_: activeTAPI could not find any match for the given area, in the guessed country. activeTAPI won't claim, the area is definitely invalid because area codes changes frequently.
+_Area: uncertain_: activeTAPI could not find any match for the given area, in the guessed country. activeTAPI won't claim, the area is definitely invalid because area codes change frequently.
 
-Let's fix the area code to `0151`and see what happens:
+Let's fix the area code to `151`and see what happens:
 
 ![](../../../.gitbook/assets/showcase_0104.png)
 
-Obviously activeTAPI has adjusted the area code, and it seems even area code `0151`is only half the truth: `015112` is the full area code:
+Obviously activeTAPI has adjusted the area code, and it seems even area code `151`is only half the truth: `15112` is the full area code:
 
 ![](../../../.gitbook/assets/showcase_0105.png)
 
@@ -61,7 +61,7 @@ Fix area code to:
 
 ![](../../../.gitbook/assets/showcase_0108.png)
 
-and activeTAPI takes care for the rest.
+and activeTAPI takes care of the rest.
 
 ![](../../../.gitbook/assets/showcase_0109.png)
 
