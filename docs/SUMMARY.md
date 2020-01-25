@@ -13,6 +13,7 @@
 * [Knowledge Base](dyn365/kb/README.md)
   * [Verify Installation](dyn365/kb/verifyinstonpremise.md)
   * [Gather information](dyn365/kb/gather-information.md)
+  * [Empty Trace Message](dyn365/kb/issues/emptyMessageBlock.md)
   * [Contact-Us](dyn365/kb/contact-us.md)
 
 ## MSPro Dynamics 365 Service Bus <a id="serviceplatform"></a>
