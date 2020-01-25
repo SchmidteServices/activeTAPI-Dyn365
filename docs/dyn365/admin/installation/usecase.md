@@ -23,7 +23,7 @@ Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly]
 3. Leave the field
 4. Check the result: activeTAPI has formatted your 'number sequence' into a canonical number.
 
-   ![image-20191217225158248](../../../.gitbook/assets/contact_phonenumer_canonicaoe.png)
+   ![image-20191217225158248](../../../.gitbook/assets/contact_phonenumer_canonical.png)
 
 {% hint style="danger" %}
 The first time when you use activeTAPI it may take several seconds \(up to 30 sec\) until you see the results. 
