@@ -11,19 +11,19 @@ follow these steps:
 
    ![](../../.gitbook/assets/enable_plugin_trace.png) 
 
-   NOTE: Depending whether you're using Dynamics 365 Online, Power Apps or on Dynamicsi 365 On-Premise, there are different way to accomplish this. Finally, you will find the _Plug-In Trace Log_ here:
+   NOTE: Depending whether you're using Dynamics 365 Online, Power Apps or on Dynamics 365 On-Premise, there are different way to accomplish this. Finally, you will find the _Plug-In Trace Log_ here:
 
    ![image-20191223164102288](../../.gitbook/assets/enable_plugin_trace2.png)
 
 3. Before we can see anything, we need to **reproduce the 'problem'**.
-4. Enter a telephone number and let activeTAPI \(try to\) format it. Well, activeTAPI does not actually format the telephone number. That is the reason why you're reading these pages, isn't it? Btt now, you have got some mor information!
+4. Enter a telephone number and let activeTAPI \(try to\) format it. Well, activeTAPI does not actually format the telephone number. That is the reason why you're reading these pages, isn't it? But now, you have got some more information!
 5. Navigate to the _Plug-In Trace Log_ entity \(see above\). **Refresh your view** and, you should see some records:
 
    ![image-20191223165809825](../../.gitbook/assets/refresh_trace.png)
 
-If there is a _Exception_ it is very important to get the complete exception information. Select, copy and past and open with any editor. Maybe you can immediately see what is wrong, otherwise check the _KnowledgeBase_ for the exception message, or send us an e-mail.
+If there is a _Exception_ it is very important to get the complete exception information. Select, copy and past and open with any editor. Maybe you can immediately see what is wrong, otherwise check the _Knowledge Base_ for the exception message, or send us an e-mail.
 
-Normally the records which explicitelly refer to _MSPro.PlatformServices.ServcieMessage_ contains more and better information.
+Normally the records which explicitly refer to _MSPro.PlatformServices.ServcieMessage_ contains more and better information.
 
 ![](../../.gitbook/assets/trace_record_reference.png)
 
