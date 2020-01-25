@@ -45,4 +45,3 @@ It is important to notice that this Plugin does not execute on any existing enti
 ![](../../../.gitbook/assets/image-20191217153629482.png)
 
 The purpose of this Plugin is, to execute activeTAPI service requests. This means, all activeTAPI logic is server-side and executes in the context of this Plugin.
-
