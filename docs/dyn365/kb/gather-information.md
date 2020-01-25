@@ -2,14 +2,14 @@
 
 If you see activeTAPI does do anything,
 
-![nothing Happens](../../.gitbook/assets/nothing-happens%20%281%29.gif)
+![](../../.gitbook/assets/nothing_happens.gif)
 
 follow these steps:
 
 1. Contact your Administrator! Honestly! Bus as a user you won't be able to see any of the details behind the curtain, of course.
 2. As an Administrator: **Enable Plug-In Trace Log**
 
-   ![image-20191223163847898](../../.gitbook/assets/image-20191223163847898.png)
+   ![](../../.gitbook/assets/enable_plugin_trace.png) 
 
    NOTE: Depending whether you're using Dynamics 365 Online, Power Apps or on Dynamicsi 365 On-Premise, there are different way to accomplish this. Finally, you will find the _Plug-In Trace Log_ here:
 
