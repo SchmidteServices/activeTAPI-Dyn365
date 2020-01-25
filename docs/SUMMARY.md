@@ -11,8 +11,8 @@
   * [Configuration](dyn365/admin/configuration/README.md)
     * [Settings Entity](dyn365/admin/configuration/settingentity.md)
 * [Knowledge Base](dyn365/kb/README.md)
-  * [Gather information](dyn365/kb/gather-information.md)
   * [Verify Installation](dyn365/kb/verifyinstonpremise.md)
+  * [Gather information](dyn365/kb/gather-information.md)
   * [Contact-Us](dyn365/kb/contact-us.md)
 
 ## MSPro Dynamics 365 Service Bus <a id="serviceplatform"></a>
