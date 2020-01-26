@@ -1,11 +1,3 @@
----
-parent: Knowledge Base
-title: Contact Support
-nav_order: 900
-has_children: true
-has_toc: false
----
-
 # Contact-Us
 
 {% hint style="info" %}
@@ -14,5 +6,4 @@ has_toc: false
 Please collect the information as described [here ](gather-information.md)and attach all collected information to the e-mail. Otherwise, we will not be able to process your request.
 {% endhint %}
 
-Once you have got this information, zip it and send it to [support@activeTAPI.net](mailto:support@activeTAPI.net). We are in UTC+1 time-zome and we will process your request a.s.a.p.
-
+Once you have got this information, zip it and send it to [support@activeTAPI.net](mailto:support@activeTAPI.net). We are in UTC+1 time-zone and we will process your request a.s.a.p.
