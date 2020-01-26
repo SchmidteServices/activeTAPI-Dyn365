@@ -18,12 +18,12 @@ Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly]
 
    enter a _Business Phone_ telephone number
 
-   ![contact\_card](../../../.gitbook/assets/contact_card%20%281%29.png)
+   ![contact\_card](../../../.gitbook/assets/contact_card.png)
 
 3. Leave the field
 4. Check the result: activeTAPI has formatted your 'number sequence' into a canonical number.
 
-   ![contact\_phonenumer\_canonical](../../../.gitbook/assets/contact_phonenumer_canonical%20%281%29.png)
+   ![contact\_phonenumer\_canonical](../../../.gitbook/assets/contact_phonenumer_canonical.png)
 
 {% hint style="danger" %}
 The first time when you use activeTAPI it may take several seconds \(up to 30 sec\) until you see the results.
@@ -41,11 +41,11 @@ _Area: uncertain_: activeTAPI could not find any match for the given area, in th
 
 Let's fix the area code to `151`and see what happens:
 
-![](../../../.gitbook/assets/showcase_0104%20%281%29.png)
+![](../../../.gitbook/assets/showcase_0104.png)
 
 Obviously activeTAPI has adjusted the area code, and it seems even area code `151`is only half the truth: `15112` is the full area code:
 
-![](../../../.gitbook/assets/showcase_0105%20%281%29.png)
+![](../../../.gitbook/assets/showcase_0105.png)
 
 ## Country codes
 
@@ -59,7 +59,7 @@ activeTAPI recognized the country is ok, however for this country somethings is 
 
 Fix area code to:
 
-![](../../../.gitbook/assets/showcase_0108%20%281%29.png)
+![](../../../.gitbook/assets/showcase_0108.png)
 
 and activeTAPI takes care of the rest.
 
@@ -72,4 +72,3 @@ If you try an invalid country code, you might see this:
 {% hint style="info" %}
 In case, you have a telephone number where you think formatting is not correct, let us have a look! Send us the number you entered and we will check!
 {% endhint %}
-
