@@ -9,15 +9,15 @@
   * [Installation](dyn365/admin/installation/README.md)
     * [Show-Cases](dyn365/admin/installation/usecase.md)
     * [Extend Integration](dyn365/admin/installation/extend-integration.md)
-  * [Configuration](dyn365/admin/configuration/README.md)
-    * [Settings Entity](dyn365/admin/configuration/settingentity.md)
   * [Solution Package](dyn365/admin/solution/README.md)
     * [Components](dyn365/admin/solution/components.md)
+    * [Out-of-the-box Integration](dyn365/admin/solution/oob_integration.md)
+  * [Configuration](dyn365/admin/configuration/README.md)
+    * [Settings Entity](dyn365/admin/configuration/settingentity.md)
 * [Knowledge Base](dyn365/kb/README.md)
-  * [Verify Installation](dyn365/kb/verifyinstonpremise.md)
-  * [Gather information](dyn365/kb/gather-information.md)
   * [Empty Trace Message](dyn365/kb/emptymessageblock.md)
-  * [Contact-Us](dyn365/kb/contact-us.md)
+  * [Contact-Us](dyn365/kb/contact-us/README.md)
+    * [Gather information](dyn365/kb/contact-us/gather-information.md)
 
 ## MSPro Dynamics 365 Service Bus <a id="serviceplatform"></a>
 

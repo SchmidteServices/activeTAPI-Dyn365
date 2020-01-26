@@ -9,7 +9,7 @@ description: Try it out after you have installed it
 
 ## Prerequisites
 
-Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly](../../kb/verifyinstonpremise.md). Then _activeTAPI_ is active on the **Contact Main Form**.
+Please make sure _activeTAPI for Microsoft Dynamics 365_ is [installed properly](../solution/oob_integration.md). Then _activeTAPI_ is active on the **Contact Main Form**.
 
 ## Enter a valid telephone number
 
@@ -45,25 +45,25 @@ Let's fix the area code to `151`and see what happens:
 
 Obviously activeTAPI has adjusted the area code, and it seems even area code `151`is only half the truth: `15112` is the full area code:
 
-![](../../../.gitbook/assets/showcase_0105.png)
+![](../../../.gitbook/assets/showcase_0105%20%282%29.png)
 
 ## Country codes
 
 Let's play with country codes: +1 is the country code for the United States of America \(and other countries\). activeTAPI recognizes a leading '00' or a '+' as: _the number starts with a country code_.
 
-![](../../../.gitbook/assets/showcase_0106.png)
+![](../../../.gitbook/assets/showcase_0106%20%282%29.png)
 
 activeTAPI recognized the country is ok, however for this country somethings is wrong with the area code:
 
-![](../../../.gitbook/assets/showcase_0107.png)
+![](../../../.gitbook/assets/showcase_0107%20%282%29.png)
 
 Fix area code to:
 
-![](../../../.gitbook/assets/showcase_0108.png)
+![](../../../.gitbook/assets/showcase_0108%20%281%29.png)
 
 and activeTAPI takes care of the rest.
 
-![](../../../.gitbook/assets/showcase_0109.png)
+![](../../../.gitbook/assets/showcase_0109%20%281%29.png)
 
 If you try an invalid country code, you might see this:
 
@@ -72,3 +72,4 @@ If you try an invalid country code, you might see this:
 {% hint style="info" %}
 In case, you have a telephone number where you think formatting is not correct, let us have a look! Send us the number you entered and we will check!
 {% endhint %}
+

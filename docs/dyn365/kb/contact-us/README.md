@@ -7,3 +7,4 @@ Please collect the information as described [here ](gather-information.md)and at
 {% endhint %}
 
 Once you have got this information, zip it and send it to [support@activeTAPI.net](mailto:support@activeTAPI.net). We are in UTC+1 time-zone and we will process your request a.s.a.p.
+
