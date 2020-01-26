@@ -27,8 +27,6 @@ This is a core entity of the _MSPro-Dynamics Services Platform_. This entity doe
 
 This entity contains all settings required for activeTAPI. The entity is available under `Settings --> Extensions --> activeTAPI Settings`. After solution import, this entity is empty and the configuration keys need to be set manually, when required \(see [activeTAPI configuration](https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/f5ae9583b31952ca3f3ff42e5b6e11242bfd569d/docs/dyn365/admin/settingEntity.md)\)
 
-![](../../../.gitbook/assets/image-20191217151214810.png)
-
 ## JavaScript
 
 The two JavaScript files:

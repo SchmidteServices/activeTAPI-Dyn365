@@ -16,8 +16,8 @@
     * [Settings Entity](dyn365/admin/configuration/settingentity.md)
 * [Knowledge Base](dyn365/kb/README.md)
   * [Empty Trace Message](dyn365/kb/emptymessageblock.md)
-  * [Contact-Us](dyn365/kb/contact-us.md)
-    * [Gather information](dyn365/kb/gather-information.md)
+  * [Contact-Us](dyn365/kb/contact-us/README.md)
+    * [Gather information](dyn365/kb/contact-us/gather-information.md)
 
 ## MSPro Dynamics 365 Service Bus <a id="serviceplatform"></a>
 
