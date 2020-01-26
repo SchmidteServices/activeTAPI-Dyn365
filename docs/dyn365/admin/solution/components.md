@@ -1,4 +1,10 @@
-# Components
+---
+description: activeTAPI Solution Components explained
+---
+
+# Solution Components
+
+
 
 | Field | Content |
 | :--- | :--- |

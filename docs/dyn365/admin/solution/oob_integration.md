@@ -4,7 +4,11 @@ description: How activeTAPI integrates with your Dynamics organization
 
 # Out-of-the-box Integration
 
-Check the _activeTAPI Managed Solution_ is installed. The version may differ, of course: `Dynamics CRM 365 -> Settings --> Solutions`.
+{% hint style="info" %}
+The image may look slightly different, depending whether you're using on-Premise or Online version. 
+{% endhint %}
+
+activeTAPI install as a managed solution \(version may differ, of course\). 
 
 ![image-20191217144254538](../../../.gitbook/assets/solution.png)
 
