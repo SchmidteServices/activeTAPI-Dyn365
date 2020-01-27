@@ -2,9 +2,6 @@
 description: activeTAPI - Technical and background information
 ---
 
-<meta http-equiv = "refresh" content = "2; url = https://www.tutorialspoint.com" />
-
-
 # activeTAPI Docs
 
 ## activeTAPI for Dynamics 365 & Power Apps
