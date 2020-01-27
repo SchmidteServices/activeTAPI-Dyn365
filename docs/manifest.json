@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Public/Documents/Sync/Daten/_gitHub/activeTAPI.Dyn365/docs.fx",
+  "source_base_path": "c:/Users/Public/Documents/Sync/Daten/_gitHub/activeTAPI.Dyn365/docs.fx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -623,7 +623,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 20,
-          "skipped_file_count": 19
+          "skipped_file_count": 20
         }
       }
     },
