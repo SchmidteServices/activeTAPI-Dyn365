@@ -13,7 +13,8 @@
     "resource": [
       {
         "files": [
-          "_content/**/*.assets/*"
+          "_content/**/*.assets/*",
+          "index.html"
         ]
       }
     ],

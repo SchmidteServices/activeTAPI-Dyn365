@@ -2,10 +2,10 @@
 # ---------------------------------
 
 - name: Marketing & Licensing
-  homepage: https://activetapi.net
+  href: https://activetapi.net
 - name: Downloads
-  homepage: https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/master/download
+  href: https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/master/download
 - name: Microsoft AppSource
-  homepage: https://appsource.microsoft.com/en-us/product/dynamics-365/schmidteservices.activetapi
+  href: https://appsource.microsoft.com/en-us/product/dynamics-365/schmidteservices.activetapi
 - name: About the Author (German)
-  homepage: http://markusschmidt.pro
+  href: http://markusschmidt.pro
