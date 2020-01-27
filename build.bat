@@ -1,0 +1,1 @@
+dfx docs.fx\docfx.json -o docs --intermediatefolder %temp% 

@@ -1,0 +1,626 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Public/Documents/Sync/Daten/_gitHub/activeTAPI.Dyn365/docs.fx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/appsourceoverview.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/appsourceoverview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/contact_card.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/contact_card.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/contact_phonenumer_canonical.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/contact_phonenumer_canonical.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/contactformatnumber02.gif",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/contactformatnumber02.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/empty_tracemessage.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/empty_tracemessage.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/enable_plugin_trace.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/enable_plugin_trace.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/enable_plugin_trace2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/enable_plugin_trace2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/fabrikamonline.gif",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/fabrikamonline.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/form.onload.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/form.onload.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/image-20191217153539852.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/image-20191217153539852.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/image-20191217153629482.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/image-20191217153629482.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/image-20191217154121010.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/image-20191217154121010.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/image-20191217154350529.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/image-20191217154350529.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/image-20191217155505874.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/image-20191217155505874.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/image-20191217225725243.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/image-20191217225725243.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/nothing_happens.gif",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/nothing_happens.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/refresh_trace.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/refresh_trace.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/settings_entity.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/settings_entity.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/showcase_0102.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/showcase_0102.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/showcase_0104.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/showcase_0104.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/showcase_0105.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/showcase_0105.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/showcase_0106.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/showcase_0106.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/showcase_0107.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/showcase_0107.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/showcase_0108.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/showcase_0108.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/showcase_0109.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/showcase_0109.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/showcase_0110.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/showcase_0110.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/solution_content.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/solution_content.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/_.assets/trace_record_reference.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/_.assets/trace_record_reference.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/actrest/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/actrest/overview.html",
+          "hash": "2cS0XjFKUMhJ9h9/ql7sbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/README.html",
+          "hash": "xhu23eF5fkEem0FIrkFwVw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/admin/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/admin/README.html",
+          "hash": "CLg9M7gBdHNO53TrPBpEvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/admin/configuration/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/admin/configuration/README.html",
+          "hash": "FhUBoJaxRflT2jgpdqGuKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/admin/configuration/settingentity.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/admin/configuration/settingentity.html",
+          "hash": "Qjp4Gj3RKneuVlI3voReWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/admin/installation/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/admin/installation/README.html",
+          "hash": "ImaXZTR7Pu5XFJ9TOKsA4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/admin/installation/extend-integration.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/admin/installation/extend-integration.html",
+          "hash": "l2Xu8jvkhnd7k10v87LT0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/admin/installation/usecase.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/admin/installation/usecase.html",
+          "hash": "uyVMigmnnZcq2YbdXfcErg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/admin/solution/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/admin/solution/README.html",
+          "hash": "Q9IDPR7mXuWypfFD6iftfQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/admin/solution/components.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/admin/solution/components.html",
+          "hash": "H/Op6Jjj/D9wxtWTt8rQYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/admin/solution/oob_integration.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/admin/solution/oob_integration.html",
+          "hash": "HhYhYV4tuUrlCOwKl8iTLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/kb/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/kb/README.html",
+          "hash": "TzQ7rcJUJytUPLUkT/WTBw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/kb/contact-us/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/kb/contact-us/README.html",
+          "hash": "cQt3RUgKlA+bZgf8sESDEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/kb/contact-us/gather-information.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/kb/contact-us/gather-information.html",
+          "hash": "S/1H+mh4jfoEMuNqLhb2tw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/kb/emptymessageblock.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/kb/emptymessageblock.html",
+          "hash": "696wHB48YuLapdpBKhztuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/kb/issues/emptyMessageBlock.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/kb/issues/emptyMessageBlock.html",
+          "hash": "VYM3umgktNcHpzNJ4JDMbA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/dyn365/kb/issues/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/dyn365/kb/issues/index.html",
+          "hash": "KGaPGsqyIl1eLO5Vt3khTw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/serviceplatform/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/serviceplatform/introduction.html",
+          "hash": "FNyn6iGQ8sdrdUyFmaj3MQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "_content/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/toc.html",
+          "hash": "QPbAR0Z3Hk9QVdsdccH5lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "fFqO4C4jMp0qJN3qyuqoBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Qb9IegEHLBADE8jzLuEsKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 19,
+          "skipped_file_count": 18
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

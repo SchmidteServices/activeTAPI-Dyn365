@@ -1,0 +1,7 @@
+# Main Menu aka horizontal headline
+# ---------------------------------
+
+- name: Marketing & Licensing
+  homepage: https://activetapi.net
+- name: Downloads
+  homepage: https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/master/download

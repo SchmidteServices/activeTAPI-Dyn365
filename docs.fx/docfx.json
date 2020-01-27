@@ -1,0 +1,69 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "_content/**/*.md",
+          "_content/**/toc.yml",
+          "toc.yml",
+          "index.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "_content/**/*.assets/*"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "exclude": [
+          "obj/**",
+          "docs/**"
+        ]
+      }
+    ],
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default", "docfx-material"
+      //"templates/msDefault"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "keepFileLink": false,
+    "noLangKeyword": false,
+    "cleanupCacheHistory": true,
+    "disableGitFeatures": false
+  }
+  // , "pdf": {
+  //   "content": [
+  //     {
+  //       "files": [
+  //         "docs/**/*.md",
+  //         "docs/**/toc.yml",
+  //         "toc.yml",
+  //         "*.md"
+  //       ]
+  //     }
+  //   ],
+  //   "resource": [
+  //     {
+  //       "files": [
+  //         "docs/**/*.assets/*"
+  //       ]
+  //     }
+  //   ],
+  //   "overwrite": [
+  //     {
+  //       "exclude": [
+  //         "obj/**",
+  //         "_site/**"
+  //       ]
+  //     }
+  //   ],
+  //   "dest": "..\\pdf"
+  // }
+}
