@@ -1,0 +1,97 @@
+{
+  "_content/dyn365/admin/solution/oob_integration.html": {
+    "href": "_content/dyn365/admin/solution/oob_integration.html",
+    "title": "Out-of-the-box Integration",
+    "keywords": "Out-of-the-box Integration {% hint style=\"info\" %} The image may look slightly different, depending whether you're using on-Premise or Online version. {% endhint %} activeTAPI install as a managed solution (version may differ, of course). The package content of version 1.0.2, for example, looked like follows."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "activeTAPI Docs",
+    "keywords": "activeTAPI Docs activeTAPI for Dynamics 365 & Power Apps activeTAPI for Dynamics 365 & Power Apps is a solution that allows you to validate and format telephone numbers from within Dynamics 365 Online or a Power App . The solution is based on the proven Dynamics CRM Plug-In technology and it can also be used with Dynamics 365 CRM On-Premise . Dynamics 365 applications based on a different technology, like Dynamics 365 BC , have not yet been tested, and they are not yet supported. If you use Microsoft Dynamics CRM On-Premise 2016 or and older version, please read on here . MSPro Dynamics 365 - Platform Services This is an architectural concept to extend Dynamics 365 applications or Power Apps with any kind of server side business logic. MSPro Dynamics 365 - Platform Services are the gas that powers activeTAPI for Dynamics 365. read more... activeTAPI-REST API The activeTAPI-REST API is a REST service, hosted on Microsoft Azure that provided all the functionality activeTAPI for Dynamics 365 uses to validate and format telephone numbers. See API Docs... Microsoft Dynamics CRM On-Premise 2016 and older Initially, activeTAPI was integrated with Microsoft Dynamics CRM 2011 . activeTAPI is based on the MSPro Dynamics Platform Services Technology which makes it very independent of the Dynamics version. However, client-side scripting for a) Platform communication and b) for displaying messages on the form had to be adjusted. We do not yet support this out-of-the-box, but if you are interested in doing this, let us know ."
+  },
+  "_content/dyn365/kb/issues/emptyMessageBlock.html": {
+    "href": "_content/dyn365/kb/issues/emptyMessageBlock.html",
+    "title": "Empty Trace Message",
+    "keywords": "Empty Trace Message activeTAPI is based on the MSPro Dynamics Power Platform . If Dynamics Plug-in Trace Log does not contain a message block, your Dynamics 365 environment did not start the Plug-in , and the MSPro Dynamics Power Platform did not start to execute: Pre Execution Error ."
+  },
+  "_content/dyn365/admin/configuration/README.html": {
+    "href": "_content/dyn365/admin/configuration/README.html",
+    "title": "Configuration",
+    "keywords": "Configuration"
+  },
+  "_content/dyn365/admin/installation/README.html": {
+    "href": "_content/dyn365/admin/installation/README.html",
+    "title": "Installation",
+    "keywords": "Installation Out-of-the-box, telephone numbers will be formatted and validated only on the Contact Main Form. Other entities and forms can be configured when required. For more information please refer to activeTAPI Configuration . {% hint style=\"success\" %} We made the decision, the provide an out-of-the-box integration with the Contact Main Form only , because we wanted to change as little as possible in your existing environment, leaving it up to you, to 'complete' the setup, based on your business' requirements. {% end hint %} On-Premise Installation You need administrative privileges to install activeTAPI. Download the latest Solution (ZIP Package) from GitHub. Import the Solution ZIP Package into your organization. Start using it ... as, for example, demonstrated in our show-case . Installation from Marketplace If you are using Dynamics 365 Online you may install directly from the App Source Marketplace . Navigate to Microsoft AppSource . Click on Get it now and follow the instructions. {% hint style=\"warning\" %} Be patient - Installation may take several minutes! Unfortunately, this process is completely under control of Microsoft ... go and get a cup of coffee! {% endhint %} Start using it ... as, for example, demonstrated in our show-case ."
+  },
+  "_content/actrest/README.html": {
+    "href": "_content/actrest/README.html",
+    "title": "Overview",
+    "keywords": "Overview tbd see API Description (DRAFT)"
+  },
+  "_content/dyn365/admin/installation/extend-integration.html": {
+    "href": "_content/dyn365/admin/installation/extend-integration.html",
+    "title": "Extend Integration",
+    "keywords": "Extend Integration"
+  },
+  "_content/dyn365/admin/solution/README.html": {
+    "href": "_content/dyn365/admin/solution/README.html",
+    "title": "Solution Package",
+    "keywords": "Solution Package Thanks to MSPro Dynamics Platform Services activeTAPI does not change or modify any functionality in your organization. The solution, and also the functionality, are completely separated from all existing items and functionality! The only connection point that is required to use activeTAPI in your organization is a reference on those forms where you want to use telephone number formatting and validation. By default, activeTAPI is activated on the Contact Main Form, only."
+  },
+  "_content/dyn365/kb/issues/index.html": {
+    "href": "_content/dyn365/kb/issues/index.html",
+    "title": "Known Solutions",
+    "keywords": ""
+  },
+  "_content/dyn365/kb/contact-us/README.html": {
+    "href": "_content/dyn365/kb/contact-us/README.html",
+    "title": "Contact-Us",
+    "keywords": "Contact-Us {% hint style=\"info\" %} BEFORE YOU SEND US AN E-MAIL Please collect the information as described here and attach all collected information to the e-mail. Otherwise, we will not be able to process your request. {% endhint %} Once you have got this information, zip it and send it to support@activeTAPI.net . We are in UTC+1 time-zone and we will process your request a.s.a.p."
+  },
+  "_content/dyn365/admin/configuration/settingentity.html": {
+    "href": "_content/dyn365/admin/configuration/settingentity.html",
+    "title": "Settings Entity",
+    "keywords": "Settings Entity activeTAPI comes with its own settings entity. This entity is a simple key-value list: The keys listed below can be used. {% hint style=\"warning\" %} Please notice the keys and values are Case-Sensitive! {% endhint %} ActiveTAPI.ClientId You will get this key from your vendor when you have purchased your own license. Without this settings, activeTAPI uses the shared license ."
+  },
+  "_content/dyn365/admin/installation/usecase.html": {
+    "href": "_content/dyn365/admin/installation/usecase.html",
+    "title": "Use-Cases",
+    "keywords": "Show-Cases Prerequisites Please make sure activeTAPI for Microsoft Dynamics 365 is installed properly . Then activeTAPI is active on the Contact Main Form . Enter a valid telephone number Navigate to the Contact Main Form Create a new Contact and enter a Business Phone telephone number Leave the field Check the result: activeTAPI has formatted your 'number sequence' into a canonical number. {% hint style=\"danger\" %} The first time when you use activeTAPI it may take several seconds (up to 30 sec) until you see the results. {% endhint %} Enter an invalid area code In Germany, 0141 is an unknown area code. Let's simulate a typo and enter 0141 556677 instead of the correct 0151 556677 - which is a mobile number. Country: guessed : The entered number did not contain a country code. That's why activeTAPI is 'guessing' a configurable default country code. In this case +49 for Germany. Area: uncertain : activeTAPI could not find any match for the given area, in the guessed country. activeTAPI won't claim, the area is definitely invalid because area codes change frequently. Let's fix the area code to 151 and see what happens: Obviously activeTAPI has adjusted the area code, and it seems even area code 151 is only half the truth: 15112 is the full area code: Country codes Let's play with country codes: +1 is the country code for the United States of America (and other countries). activeTAPI recognizes a leading '00' or a '+' as: the number starts with a country code . activeTAPI recognized the country is ok, however for this country somethings is wrong with the area code: Fix area code to: and activeTAPI takes care of the rest. If you try an invalid country code, you might see this: {% hint style=\"info\" %} In case, you have a telephone number where you think formatting is not correct, let us have a look! Send us the number you entered and we will check! {% endhint %}"
+  },
+  "_content/dyn365/kb/emptymessageblock.html": {
+    "href": "_content/dyn365/kb/emptymessageblock.html",
+    "title": "Empty Trace Message",
+    "keywords": "Empty Trace Message activeTAPI is based on the MSPro Dynamics Power Platform . If Dynamics Plug-in Trace Log does not contain a message block, your Dynamics 365 environment did not start the Plug-in , and the MSPro Dynamics Power Platform did not start to execute: Pre Execution Error ."
+  },
+  "_content/dyn365/README.html": {
+    "href": "_content/dyn365/README.html",
+    "title": "Introduction",
+    "keywords": "Introduction activeTAPI for Microsoft Dynamics 365 & Power Apps is a Solution that extends Microsoft's Common Data Service. Note Solutions are how customizers and developers author, package, and maintain units of software that extend Common Data Service. For example, Dynamics 365 for Sales, Marketing, Customer Service apps are composed of solutions. Customizers and developers distribute solutions so that organizations can use Common Data Service to install and uninstall the business functionality defined by the solution. ( ref. Microsoft Power Apps ) The functionality is simple and powerful. It validates and formats telephone numbers while you're entering them. Behind the scenes, all activeTAPI validation and formatting logic comes from the activeTAPI-REST Service . The Solution itself contains only the components required to integrate this service with the Dynamics platform. Out-of-the-box activeTAPI becomes active on your Dynamics 365 Contact Main Form , only. However, you can configure activeTAPI to format telephone numbers wherever you want - more... . activeTAPI-Dyn365 In short, the product is called activeTAPI-Dyn365 . It has passed Microsoft tests and it is available on AppSource , as well as a separate download (Solution ZIP package). {% hint style=\"info\" %} You may use the ZIP package for installation on your Microsoft 365 CRM On-Premise environment. {% end hint %}"
+  },
+  "_content/dyn365/kb/README.html": {
+    "href": "_content/dyn365/kb/README.html",
+    "title": "Knowledge Base",
+    "keywords": "Knowledge Base In the section we collect solutions for all known issues, you might face when using activeTAPI. Microsoft Dynamics 365 together with Power Apps and Microsoft Common Data Service are very complex platforms. We are testing as good as possible, to make sure, activeTAPI works in any case. However, depending on your environment and its configuration you might see the one or the other issue. Please, check if you find the solution here, otherwise send us an e-mail so that we can work together on the solution. {% hint style=\"info\" %} activeTAPI becomes active after you have left the current field. Normally, it takes a second or two to format the telephone number. However, initially it can also take a bit longer. {% endhint %} If activeTAPI does not format the number or show any result at all, continue here to see how to find the root cause ."
+  },
+  "_content/serviceplatform/README.html": {
+    "href": "_content/serviceplatform/README.html",
+    "title": "MSPro Dynamics Platform Services",
+    "keywords": "MSPro Dynamics Platform Services MSPro is me: Markus Schmidt - http://markuschmidt.pro Dynamics Platform Services is my invention, created in 2011, when struggling with the 'nature' of Microsoft Dynamics CRM 2011 and the inability to implement custom business logic. In 2019, I have refreshed this invention and I have used it for activeTAPI. I updated it to the latest SDK and verified its compatibility with the latest Microsoft Dynamics 365 products and with Microsoft Common Data Service. Well, surprisingly, after my five years of 'CRM absence', I recognized, such technology still does not exist out of the box. And with Microsoft Common Data Service and Power Apps , I think, it is required more than ever. What is MSPro Dynamics Platform Services stay patient ... need some time ..."
+  },
+  "_content/dyn365/admin/README.html": {
+    "href": "_content/dyn365/admin/README.html",
+    "title": "Technical Information",
+    "keywords": "Technical Information activeTAPI for Microsoft Dynamics 365 is based on the MSPro Dynamics Platform Service_ Technology. This technology allows us to execute all business logic in the controlled context of a Plugin - server-side. Clients will never 'leave' their safe Microsoft Dynamics 365 environment."
+  },
+  "_content/dyn365/admin/solution/components.html": {
+    "href": "_content/dyn365/admin/solution/components.html",
+    "title": "Solution Components",
+    "keywords": "Solution Components Field Content Publisher Display Name Markus Schmidt - Dyn365 Pro Publisher Name markusschmidtpro Prefix mspro Website http://activeTAPI.net The activeTAPI Managed Solution contains the following components: Entities mspro_servicemessage This is a core entity of the MSPro-Dynamics Services Platform . This entity does not have a user-interface. mspro_settings This entity contains all settings required for activeTAPI. The entity is available under Settings --> Extensions --> activeTAPI Settings . After solution import, this entity is empty and the configuration keys need to be set manually, when required (see activeTAPI configuration ) JavaScript The two JavaScript files: mspro_/js/activeTapi.js and mspro_/js/platformServcies.js The files contain the JavaScript lettings forms communicate with your Dynamics CRM 365 Server. It is important to mention that the Dynamics 365 Client will only communicate with your Dynamics CRM 365 server, using standard SDK functionality: Xrm.WebApi.createRecord(\"mspro_servicemessage\", serviceMessage).then( ... . The client will not call or use any resource outside of your 'safe' Microsoft Dynamics CRM 365 environment. Plugin activeTAPI uses one Plugin that is registered on the mspro_servicemessage entity as follows: It is important to notice that this Plugin does not execute on any existing entity! The purpose of this Plugin is, to execute activeTAPI service requests. This means, all activeTAPI logic is server-side and executes in the context of this Plugin."
+  },
+  "_content/dyn365/kb/contact-us/gather-information.html": {
+    "href": "_content/dyn365/kb/contact-us/gather-information.html",
+    "title": "Gather information",
+    "keywords": "Gather information If you see activeTAPI does do anything, follow these steps: Contact your Administrator! Honestly! Bus as a user you won't be able to see any of the details behind the curtain, of course. As an Administrator: Enable Plug-In Trace Log NOTE: Depending whether you're using Dynamics 365 Online, Power Apps or on Dynamics 365 On-Premise, there are different way to accomplish this. Finally, you will find the Plug-In Trace Log here: Before we can see anything, we need to reproduce the 'problem' . Enter a telephone number and let activeTAPI (try to) format it. Well, activeTAPI does not actually format the telephone number. That is the reason why you're reading these pages, isn't it? But now, you have got some more information! Navigate to the Plug-In Trace Log entity (see above). Refresh your view and, you should see some records: If there is a Exception it is very important to get the complete exception information. Select, copy and past and open with any editor. Maybe you can immediately see what is wrong, otherwise check the Knowledge Base for the exception message, or send us an e-mail. Normally the records which explicitly refer to MSPro.PlatformServices.ServcieMessage contains more and better information. If you encounter an empty message block , the Plug-in was not even executed. Continue reading here ."
+  }
+}

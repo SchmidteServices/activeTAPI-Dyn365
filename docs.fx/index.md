@@ -12,7 +12,7 @@ Dynamics 365 applications based on a different technology, like **Dynamics 365 B
 
 ## MSPro Dynamics 365 - Platform Services
 
-This is an architectural concept to extend Dynamics 365 applications or Power Apps with any kind of server side business logic. _MSPro Dynamics 365 - Platform Services_ are the gas that powers _activeTAPI for Dynamics 365._ [read more...](_content/serviceplatform/introduction.md)
+This is an architectural concept to extend Dynamics 365 applications or Power Apps with any kind of server side business logic. _MSPro Dynamics 365 - Platform Services_ are the gas that powers _activeTAPI for Dynamics 365._ [read more...](_content/servicePlatform/README.md)
 
 ## activeTAPI-REST API
 

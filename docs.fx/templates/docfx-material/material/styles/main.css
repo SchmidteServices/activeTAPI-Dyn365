@@ -88,6 +88,8 @@ article h3,
 article h4 {
   margin-top: 35px;
   margin-bottom: 15px;
+  font-family: 'Bookman Old Style', serif; 
+  font-weight: 600;
 }
 
 article h4 {

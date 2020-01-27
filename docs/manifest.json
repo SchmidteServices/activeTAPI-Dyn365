@@ -5,6 +5,15 @@
   "files": [
     {
       "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "_content/_.assets/appsourceoverview.png",
       "output": {
         "resource": {
@@ -324,14 +333,14 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "_content/actrest/overview.md",
+      "source_relative_path": "_content/actrest/README.md",
       "output": {
         ".html": {
-          "relative_path": "_content/actrest/overview.html",
-          "hash": "2cS0XjFKUMhJ9h9/ql7sbg=="
+          "relative_path": "_content/actrest/README.html",
+          "hash": "PzXUAg81b5+T+RnA2wz2nA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -340,10 +349,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/README.html",
-          "hash": "xhu23eF5fkEem0FIrkFwVw=="
+          "hash": "qOKRi7DE08ioOLfDFIwUXg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -352,10 +361,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/admin/README.html",
-          "hash": "CLg9M7gBdHNO53TrPBpEvA=="
+          "hash": "QWVEZVjV0C3FZ5N/RAFeBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -364,10 +373,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/admin/configuration/README.html",
-          "hash": "FhUBoJaxRflT2jgpdqGuKw=="
+          "hash": "0zQdsiJDhUwmBBz/Pk9xGw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -376,10 +385,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/admin/configuration/settingentity.html",
-          "hash": "Qjp4Gj3RKneuVlI3voReWg=="
+          "hash": "No+GaXcCyoN71Tq3VjQWoQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -388,10 +397,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/admin/installation/README.html",
-          "hash": "ImaXZTR7Pu5XFJ9TOKsA4w=="
+          "hash": "wEOOvKkrpUpwW2yuCV4GNA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -400,10 +409,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/admin/installation/extend-integration.html",
-          "hash": "l2Xu8jvkhnd7k10v87LT0w=="
+          "hash": "gxdzJUHHw2l4glyOH9WqNA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -412,10 +421,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/admin/installation/usecase.html",
-          "hash": "uyVMigmnnZcq2YbdXfcErg=="
+          "hash": "J3uiqcB5z254KOcalJYy0A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -424,10 +433,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/admin/solution/README.html",
-          "hash": "Q9IDPR7mXuWypfFD6iftfQ=="
+          "hash": "DQtcBA0e1xc7Xaep2622vw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -436,10 +445,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/admin/solution/components.html",
-          "hash": "H/Op6Jjj/D9wxtWTt8rQYg=="
+          "hash": "vjIf9AkB8dhgpA7eqLHfVQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -448,10 +457,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/admin/solution/oob_integration.html",
-          "hash": "HhYhYV4tuUrlCOwKl8iTLw=="
+          "hash": "H606ZmZIFt92dENfkk//OQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -460,10 +469,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/kb/README.html",
-          "hash": "TzQ7rcJUJytUPLUkT/WTBw=="
+          "hash": "Pz+e7oqaVcswboK2KKx9hw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -472,10 +481,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/kb/contact-us/README.html",
-          "hash": "cQt3RUgKlA+bZgf8sESDEA=="
+          "hash": "KEOG+SBM1lgZC823+4cQYw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -484,10 +493,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/kb/contact-us/gather-information.html",
-          "hash": "S/1H+mh4jfoEMuNqLhb2tw=="
+          "hash": "PH1UT+lwwJFCCb1+AupLaA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -496,10 +505,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/kb/emptymessageblock.html",
-          "hash": "696wHB48YuLapdpBKhztuA=="
+          "hash": "09EHdIHsaZ6NO8gJtYRbtg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -508,10 +517,10 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/kb/issues/emptyMessageBlock.html",
-          "hash": "VYM3umgktNcHpzNJ4JDMbA=="
+          "hash": "fQ8xDJwUaFBC7U7onm9P+g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -520,22 +529,22 @@
       "output": {
         ".html": {
           "relative_path": "_content/dyn365/kb/issues/index.html",
-          "hash": "KGaPGsqyIl1eLO5Vt3khTw=="
+          "hash": "wXbhjXZ0hgIt1WNGgbHllw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "_content/serviceplatform/introduction.md",
+      "source_relative_path": "_content/serviceplatform/README.md",
       "output": {
         ".html": {
-          "relative_path": "_content/serviceplatform/introduction.html",
-          "hash": "FNyn6iGQ8sdrdUyFmaj3MQ=="
+          "relative_path": "_content/serviceplatform/README.html",
+          "hash": "ncEWLSaOH8Tc8rMF4jCFng=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -544,7 +553,7 @@
       "output": {
         ".html": {
           "relative_path": "_content/toc.html",
-          "hash": "QPbAR0Z3Hk9QVdsdccH5lA=="
+          "hash": "sAFo9s1EpSeShtDbIn2GHg=="
         }
       },
       "is_incremental": false,
@@ -556,7 +565,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "fFqO4C4jMp0qJN3qyuqoBQ=="
+          "hash": "4ju25Z1k2K8vBEug8UqLvw=="
         }
       },
       "is_incremental": false,
@@ -568,7 +577,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Qb9IegEHLBADE8jzLuEsKQ=="
+          "hash": "cWcQXtuJs825Shix4QMYLg=="
         }
       },
       "is_incremental": false,
@@ -584,16 +593,16 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
@@ -602,14 +611,14 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 19,
-          "skipped_file_count": 18
+          "skipped_file_count": 19
         }
       }
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

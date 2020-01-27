@@ -28,10 +28,16 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default", "docfx-material"
-      //"templates/msDefault"
+      "default"
+      , "templates/docfx-material/material"
+      , "templates/msPro"
     ],
-    "postProcessors": [],
+    "globalMetadata": {
+      "_enableSearch": "true"
+    },
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
     "markdownEngineName": "markdig",
     "keepFileLink": false,
     "noLangKeyword": false,
