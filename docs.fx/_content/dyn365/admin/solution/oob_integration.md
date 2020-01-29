@@ -4,14 +4,9 @@ description: How activeTAPI integrates with your Dynamics organization
 
 # Out-of-the-box Integration
 
-{% hint style="info" %}
-The image may look slightly different, depending whether you're using on-Premise or Online version. 
-{% endhint %}
+The only connection point that is required to use _activeTAPI_ in your organization is a reference on those forms where you want to use telephone number formatting and validation.
 
-activeTAPI install as a managed solution \(version may differ, of course\). 
+![image-20191217154350529](oob_integration.assets/image-20191217154350529.png)
 
-![image-20191217144254538](../../../_.assets/solution.png)
+See also [Solution Components](components.md)
 
-The package content of version 1.0.2, for example, looked like follows.
-
-![](../../../_.assets/solution_content.png)

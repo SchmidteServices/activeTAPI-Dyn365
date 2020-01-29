@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../../../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="../../../../toc.html">
-    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
     
     <meta property="docfx:rel" content="../../../../">
     
@@ -79,6 +79,22 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="extend-integration">Extend Integration</h1>
 
+<p>Via <code>Settings.Customizations Customize the System</code> navigate to the Entity and the Form where you want to integrate telephone number formatting (see also <a href="../solution/oob_integration.html">Out-of-the-box Integration</a>).</p>
+<p><img src="extend-integration.assets/image-20200129111711891.png" alt="image-20200129111711891"></p>
+<p>Select the Form - for example <em>Contact - Mobile</em> and open <em>Form.Properties</em>.</p>
+<p><img src="extend-integration.assets/image-20200129110625016.png" alt="image-20200129110625016"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Microsoft is going to change UIs in 2020. All screenshot were taken in Dynamics 365 Online (Jan 2020). However.</p>
+</div>
+<p>Add the two JavaScripts as shown below to your Form Libraries. There might be other scripts already, but this does not matter. <strong>Make sure, <code>platformservices.js</code> is listed before <code>activeTAPI.js</code>.</strong></p>
+<p><img src="extend-integration.assets/image-20191217154350529.png" alt="image-20191217154350529"></p>
+<p>In addition, you need to register the function <code>mspro.form.onLoad</code> and pass execution parameters in the Form's OnLoad event.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>All string are casse-sensitive because it is JavaScript!</p>
+</div>
+<p><img src="extend-integration.assets/image-20200129104811752.png" alt="image-20200129104811752"></p>
 </article>
           </div>
           

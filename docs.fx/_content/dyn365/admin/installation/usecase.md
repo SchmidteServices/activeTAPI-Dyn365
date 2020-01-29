@@ -1,10 +1,3 @@
----
-title: Use-Cases
-nav_order: 300
-has_children: false
-description: Try it out after you have installed it
----
-
 # Show-Cases
 
 ## Prerequisites

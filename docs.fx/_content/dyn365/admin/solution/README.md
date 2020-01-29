@@ -1,15 +1,25 @@
----
-description: Out-Of-The-Box integration
----
-
 # Solution Package
 
-Thanks to [MSPro Dynamics Platform Services](~/_content/servicePlatform/README.md) activeTAPI does not change or modify any functionality in your organization. The solution, and also the functionality, are completely separated from all existing items and functionality!
+activeTAPI does not change or modify any functionality in your organization. The Solution, and also the functionality, are completely separated from all existing items and functionality!
 
-The only connection point that is required to use _activeTAPI_ in your organization is a reference on those forms where you want to use telephone number formatting and validation.
+| Field                  | Content                                          |
+| :--------------------- | :----------------------------------------------- |
+| Publisher Display Name | Markus Schmidt - Dyn365 Pro                      |
+| Publisher Name         | markusschmidtpro                                 |
+| Prefix                 | `mspro`                                          |
+| Website                | [https://activeTAPI.net](https://activeTAPI.net) |
 
-![](~/_content/_.assets/image-20191217154121010.png)
+![image-20191217155505874](README.assets/image-20191217155505874.png)
 
-By default, activeTAPI is activated on the Contact Main Form, only.
+> [!NOTE]
+> The image may look slightly different, depending whether you're using on-Premise or Online version. 
 
-![](~/_content/_.assets/image-20191217154350529.png)
+activeTAPI install as a managed solution \(version may differ, of course\). 
+
+![image-20191217144254538](README.assets/solution.png)
+
+The package content of version 1.0.2, for example, looked like follows.
+
+![](README.assets/solution_content.png)
+
+See also [Solution Components in detail](components.md)

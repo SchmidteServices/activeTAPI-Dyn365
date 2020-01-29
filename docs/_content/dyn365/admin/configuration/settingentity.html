@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../../../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="../../../../toc.html">
-    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
     
     <meta property="docfx:rel" content="../../../../">
     
@@ -79,14 +79,29 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="settings-entity">Settings Entity</h1>
 
-<p>activeTAPI comes with its own settings entity. This entity is a simple key-value list:</p>
-<p><img src="../../../_.assets/settings_entity.png" alt=""></p>
-<p>The keys listed below can be used.</p>
-<p>{% hint style=&quot;warning&quot; %}
-Please notice the keys and values are Case-Sensitive!
-{% endhint %}</p>
-<h2 id="activetapiclientid">ActiveTAPI.ClientId</h2>
-<p>You will get this key from your vendor when you have purchased your own license. Without this settings, activeTAPI uses the <a href="http://activetapi.net/licensing/sharedlicense/?target=_blank">shared license</a>.</p>
+<p>activeTAPI comes with its own settings entity <code>mspro_settings</code>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Unfortunately, in Dynamics 365 Online, there is no way to add custom entities to an organization's Customization.Settings menu. If you're using Dynamics 365 on-Premise you will find the entity there.</p>
+</div>
+<p>Use <em>Advanced Find</em> to open the Settings Entity.</p>
+<p><img src="settingentity.assets/image-20200129112849906.png" alt="image-20200129112849906"></p>
+<p>This entity is a simple key-value list.</p>
+<p><img src="settingentity.assets/image-20200129113012626.png" alt="image-20200129113012626"></p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Please notice the keys and values are Case-Sensitive!</p>
+</div>
+<h2 id="activetapiclientid-">ActiveTAPI.ClientId <a name="clientid/"></a></h2>
+<p>You will get this key from your vendor when you have purchased an activeTAPI license. By default, when this settings does not exist, activeTAPI uses the <a href="http://activetapi.net/licensing/sharedlicense/?target=_blank">shared license</a>.</p>
+<p><img src="settingentity.assets/image-20200129113233355.png" alt="image-20200129113233355"></p>
+<h2 id="activetapiserviceurl">ActiveTAPI.ServiceUrl</h2>
+<p>The Url which is used by the Plug-in to access the activeTAPI-REST Service.</p>
+<p><img src="settingentity.assets/image-20200129113503470.png" alt="image-20200129113503470"></p>
+<p>Right now, there are two options for this:</p>
+<p>a)	<a href="https://activetapi.azurewebsites.net">https://activetapi.azurewebsites.net</a>	-	depreciated (dotnet core 2.2), still default</p>
+<p>b)	<a href="https://activetapi3.azurewebsites.net">https://activetapi3.azurewebsites.net</a>	-	new service (dotnet core 3.1)</p>
+<p>Both Urls have the same functionality. However, only <em>activetapi3</em> will continue to evolve, because Microsoft has discontinued support for dotnet 2.2 (current url). Future releases of activeTAPI will reference <em>activetapi3</em>, by default.</p>
 </article>
           </div>
           

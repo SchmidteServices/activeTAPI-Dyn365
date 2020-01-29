@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../../../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="../../../../toc.html">
-    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
     
     <meta property="docfx:rel" content="../../../../">
     
@@ -79,55 +79,67 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="solution-components">Solution Components</h1>
 
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Field</th>
-<th style="text-align: left;">Content</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Publisher Display Name</td>
-<td style="text-align: left;">Markus Schmidt - Dyn365 Pro</td>
-</tr>
-<tr>
-<td style="text-align: left;">Publisher Name</td>
-<td style="text-align: left;">markusschmidtpro</td>
-</tr>
-<tr>
-<td style="text-align: left;">Prefix</td>
-<td style="text-align: left;"><code>mspro</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">Website</td>
-<td style="text-align: left;"><a href="http://activeTAPI.net">http://activeTAPI.net</a></td>
-</tr>
-</tbody>
-</table>
-<p><img src="../../../_.assets/image-20191217155505874.png" alt=""></p>
-<p>The <em>activeTAPI Managed Solution</em> contains the following components:</p>
+<p>The <em>activeTAPI Managed Solution</em> contains the following components.</p>
 <h2 id="entities">Entities</h2>
+<div class="NOTE">
+<h5>Note</h5>
+<p>All entities are configured to show up under <code>Settings --&gt; Extensions</code>. However, with <strong>Dynamics 365 Online</strong> - especially if you installed the Solution from AppSource - all <code>mspro_</code> entities are not shown in your solution. The only way to display those entities is using <em>Advanced Find</em>.</p>
+<p><img src="components.assets/image-20200129112908108.png" alt="image-20200129112908108"></p>
+</div>
 <h3 id="mspro_servicemessage">mspro_servicemessage</h3>
-<p>This is a core entity of the <em>MSPro-Dynamics Services Platform</em>. This entity does not have a user-interface.</p>
+<p>This is a core entity of the <em><a href="../../../serviceplatform/README.html">MSPro-Dynamics Services Platform</a></em>. This entity does not have a user-interface.</p>
 <h3 id="mspro_settings">mspro_settings</h3>
-<p>This entity contains all settings required for activeTAPI. The entity is available under <code>Settings --&gt; Extensions --&gt; activeTAPI Settings</code>. After solution import, this entity is empty and the configuration keys need to be set manually, when required (see <a href="https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/f5ae9583b31952ca3f3ff42e5b6e11242bfd569d/docs/dyn365/admin/settingEntity.md">activeTAPI configuration</a>)</p>
+<p>This entity contains all settings required for activeTAPI. After solution import, this entity is empty and the configuration keys need to be set manually, when required (see <a href="https://github.com/SchmidteServices/activeTAPI-Dyn365/tree/f5ae9583b31952ca3f3ff42e5b6e11242bfd569d/docs/dyn365/admin/settingEntity.md">activeTAPI configuration</a>).</p>
 <h2 id="javascript">JavaScript</h2>
-<p>The two JavaScript files:</p>
-<ul>
-<li><code>mspro_/js/activeTapi.js</code>  and</li>
-<li><code>mspro_/js/platformServcies.js</code></li>
-</ul>
-<p>The files contain the JavaScript lettings forms communicate with your Dynamics CRM 365 Server.</p>
-<blockquote>
-<p>It is important to mention that the Dynamics 365 Client will only communicate with your Dynamics CRM 365 server, using standard SDK functionality: <code>Xrm.WebApi.createRecord(&quot;mspro_servicemessage&quot;, serviceMessage).then( ...</code>. The client will not call or use any resource outside of your 'safe' Microsoft Dynamics CRM 365 environment.</p>
-</blockquote>
+<h3 id="mspro_jsactivetapijs">mspro_/js/activeTapi.js</h3>
+<p>Contains the activityTAPI functionality which will be active on the form where this script is beeing used (see <a href="../installation/extend-integration.html">Extend Integration</a>).  <code>OnForm.Load()</code> <code>activeTAPI.js</code> registers <code>OnChanged</code> handlers,  for all <em>Phone</em> attributes, as follows:</p>
+<pre><code class="lang-JavaScript">onLoad: function (executionContext) {
+  ...
+  // ZERO CONFIG: 
+  // * get all attributes with format = 'phone'
+  // * Add 'fax' - which is not a 'phone' field :-(
+  // and register activeTAPI handle for these fields.
+  //
+  formContext.data.entity.attributes.get().forEach(function (a) 
+  {
+    if (a.getFormat() == 'phone' || a.getName() == 'fax') 
+    {
+        // ... register on attribute changed ... 
+        register onAttributeChanged() handler
+    }
+  }
+}
+                                                   
+onAttributeChanged() // _formatTelephoneNumber
+{
+	mspro.platformServices.sendMessage(&quot;ActiveTapi.FormatNumbers&quot;, ...
+}
+</code></pre>
+<h3 id="mspro_jsplatformservicesjs">mspro_/js/platformServices.js</h3>
+<p>This script belongs to <a href="../../../serviceplatform/README.html">MSPRo Dynamics Platform Services</a>. It contains only a single method allowing a form to execute platform services. <code>activeTAPI.js</code> uses it to send messages to 'the platform' when a form attribute's content changed <code>Attribute onChanged() Event</code>:</p>
+<pre><code class="lang-JavaScript">mspro.platformServices.sendMessage(&quot;ActiveTapi.FormatNumbers&quot;,
+{ 
+  &quot;phoneNumbers&quot; : [ changedAttribute.getValue() ],
+},
+function (result, data) { ...
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>It is important to mention that the scipts do communicate with your Dynamics CRM 365 server, <strong>using standard SDK functionality, only</strong>:</p>
+<p><code>Xrm.WebApi.createRecord(&quot;mspro_servicemessage&quot;, serviceMessage).then( ...</code>.</p>
+<p>The client will not call or use any resource outside of your safe &amp; sandboxed Microsoft Dynamics CRM 365 environment!</p>
+</div>
 <h2 id="plugin">Plugin</h2>
-<p>activeTAPI uses one Plugin that is registered on the <code>mspro_servicemessage</code>entity as follows:</p>
+<p>activeTAPI uses one Plugin, which belongs to <a href="../../../serviceplatform/README.html">MSPRo Dynamics Platform Services</a>. Its functionality is to execute the business logic that was requested by the client (see JavaScript <em>SendMessage</em>). In case of activeTAPI, the sandboxed Plug-in executes the REST calls to the <a href="../../../actrest/README.html">activeTAPI-REST Service</a>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This means, all activeTAPI logic is server-side and executes in the context of this Plugin.</p>
+</div>
+<p>The Plug-in is registered on the <code>mspro_servicemessage</code>entity as follows:</p>
 <p><img src="../../../_.assets/image-20191217153539852.png" alt=""></p>
-<p>It is important to notice that this Plugin does not execute on any existing entity!</p>
 <p><img src="../../../_.assets/image-20191217153629482.png" alt=""></p>
-<p>The purpose of this Plugin is, to execute activeTAPI service requests. This means, all activeTAPI logic is server-side and executes in the context of this Plugin.</p>
+<p>[!NOTE]</p>
+<p>It is important to notice that this Plug-in is registered on the <code>mspro_servicemessage</code> entity, only, which is part of the activeTAPI Solution. The Plug-in does run in the pipeline of any existing entity!</p>
 </article>
           </div>
           

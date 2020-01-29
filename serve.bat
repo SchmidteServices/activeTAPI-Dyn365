@@ -1,0 +1,2 @@
+dfx.bat serve
+pause

@@ -4,12 +4,11 @@ description: activeTAPI for Dynamics 365 installation
 
 # Installation
 
-Out-of-the-box, telephone numbers will be formatted and validated only on the Contact Main Form. Other entities and forms can be configured when required. For more information please refer to [activeTAPI Configuration](../configuration/README.md).
+Out-of-the-box, telephone numbers will be formatted and validated only on the Contact Main Form. Other entities and forms can be configured when required (see [Extend Integration](./extend-integration.md)).
 
-{% hint style="success" %}
-We made the decision, the provide an **out-of-the-box integration with the Contact Main Form only**,   
-because we wanted to change as little as possible in your existing environment, leaving it up to you, to 'complete' the setup, based on your business' requirements.
-{% end hint %}
+> [!NOTE]
+> We made the decision, the provide an **out-of-the-box integration with the Contact Main Form only**,   
+> because we wanted to change as little as possible in your existing environment, leaving it up to you, to 'complete' the setup, based on your business' requirements.
 
 ## On-Premise Installation
 
@@ -28,9 +27,8 @@ If you are using Dynamics 365 Online you may install directly from the _App Sour
 
 ![AppSource Overview](../../../_.assets/appsourceoverview.png)
 
-{% hint style="warning" %}
-Be patient - Installation may take several minutes!  
-Unfortunately, this process is completely under control of Microsoft ... go and get a cup of coffee!
-{% endhint %}
+> [!WARNING]
+> Be patient - Installation may take several minutes!  
+> Unfortunately, this process is completely under control of Microsoft ... go and get a cup of coffee!
 
-* Start using it ... as, for example, demonstrated in our [show-case](usecase.md). 
+* Start using it ... as, for example, demonstrated in our [show-cases](usecase.md). 
